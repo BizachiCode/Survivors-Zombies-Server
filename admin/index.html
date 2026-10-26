@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="color-scheme" content="dark">
+  <title>Game Admin</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/admin/style.css">
+</head>
+<body>
+  <div id="login" class="login" hidden>
+    <form id="login-form" class="card login-card" autocomplete="off">
+      <h1>Game Admin</h1>
+      <p class="muted">Enter the admin token (<code>ADMIN_TOKEN</code> of the server).</p>
+      <label>Token
+        <input id="login-token" type="password" autocomplete="off" spellcheck="false" required>
+      </label>
+      <p id="login-error" class="error" hidden></p>
+      <button class="btn primary" type="submit">Sign in</button>
+    </form>
+  </div>
+
+  <div id="app" hidden>
+    <header class="topbar">
+      <div class="brand">Game Admin</div>
+      <nav id="nav" class="nav">
+        <a href="#/dashboard" data-route="dashboard">Dashboard</a>
+        <a href="#/players" data-route="players">Players</a>
+        <a href="#/news" data-route="news">News</a>
+        <a href="#/mail" data-route="mail">Mail broadcasts</a>
+        <a href="#/audit" data-route="audit">Audit</a>
+      </nav>
+      <div class="topbar-right">
+        <span id="maintenance-badge" class="badge warn" hidden>Maintenance</span>
+        <button id="sign-out" class="btn small" type="button">Sign out</button>
+      </div>
+    </header>
+    <main id="view" class="view"></main>
+  </div>
+
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <script src="/admin/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "items": [
+    { "id": "old", "title": "Old news", "body": "Published first.", "publishedAt": "2026-10-01T00:00:00Z" },
+    { "id": "recent", "title": { "en": "Recent", "pt": "Recente" }, "body": { "en": "Recent body", "pt": "Corpo recente", "es": "Cuerpo reciente" }, "image": "shop", "url": "https://example.com/recent", "publishedAt": "2026-10-20T09:00:00Z" },
+    { "id": "pinned", "title": "Pinned", "body": "Always on top.", "publishedAt": "2026-09-01T00:00:00Z", "pinned": true },
+    { "id": "future", "title": "Soon", "body": "Not published yet.", "publishedAt": "2026-11-01T00:00:00Z" },
+    { "id": "expired", "title": "Gone", "body": "Expired.", "publishedAt": "2026-10-02T00:00:00Z", "expiresAt": "2026-10-15T00:00:00Z" },
+    { "id": "ends_soon", "title": "Ends soon", "body": "Expires tomorrow.", "publishedAt": "2026-10-05T00:00:00Z", "expiresAt": "2026-10-22T00:00:00Z" }
+  ]
+}

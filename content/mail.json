@@ -1,0 +1,65 @@
+{
+  "broadcasts": [
+    {
+      "id": "welcome_gift",
+      "sender": "Pirate Cove",
+      "title": {
+        "en": "Welcome gift",
+        "pt": "Presente de boas-vindas",
+        "es": "Regalo de bienvenida",
+        "zh": "欢迎礼物",
+        "ja": "ウェルカムギフト",
+        "ko": "환영 선물"
+      },
+      "body": {
+        "en": "Welcome aboard, captain! Here are some coins, gems and wild tokens to start your crew. Claim them and good luck out there.",
+        "pt": "Bem-vindo a bordo, capitão! Aqui estão moedas, gemas e tokens curinga para começar sua tripulação. Resgate e boa sorte lá fora.",
+        "es": "¡Bienvenido a bordo, capitán! Aquí tienes monedas, gemas y fichas comodín para empezar tu tripulación. Reclámalas y buena suerte.",
+        "zh": "欢迎登船，船长！这里有一些金币、宝石和万能代币，助你组建船员队伍。快去领取吧，祝你一路顺风！",
+        "ja": "ようこそ、キャプテン！クルーを始めるためのコイン、ジェム、ワイルドトークンをプレゼント。受け取って、冒険を楽しんでね。",
+        "ko": "환영합니다, 선장님! 크루를 시작할 코인, 보석, 와일드 토큰을 준비했어요. 받고 행운을 빌어요!"
+      },
+      "attachments": {
+        "currencies": {
+          "coins": 500,
+          "gems": 20
+        },
+        "items": {
+          "tokens.wild": 3
+        },
+        "exp": 0
+      },
+      "expiresAfterDays": 0
+    },
+    {
+      "id": "launch_celebration",
+      "sender": "Pirate Cove",
+      "title": {
+        "en": "Launch celebration",
+        "pt": "Celebração do lançamento",
+        "es": "Celebración del lanzamiento",
+        "zh": "开服庆典",
+        "ja": "リリース記念",
+        "ko": "출항 축하"
+      },
+      "body": {
+        "en": "The cove is open and the crew is growing! Thanks for sailing with us. Enjoy some Crew XP and Moon Shards on the house.",
+        "pt": "A enseada está aberta e a tripulação cresce! Obrigado por navegar conosco. Aproveite um pouco de Crew XP e Fragmentos da Lua por conta da casa.",
+        "es": "¡La cala está abierta y la tripulación crece! Gracias por navegar con nosotros. Disfruta de algo de Crew XP y Fragmentos de Luna, cortesía de la casa.",
+        "zh": "海盗湾正式开放，船员队伍日益壮大！感谢你与我们一同扬帆。送你一些船员经验和月光碎片，不收钱！",
+        "ja": "コーブがオープンし、クルーも増えてきました！ご乗船ありがとうございます。クルーXPとムーンシャードをプレゼントします。",
+        "ko": "해적 만이 문을 열었고 크루도 늘어나고 있어요! 함께 항해해 주셔서 감사해요. 크루 XP와 문 조각을 선물로 받아 가세요."
+      },
+      "attachments": {
+        "currencies": {},
+        "items": {
+          "crew_xp": 100,
+          "moon_shard": 10
+        },
+        "exp": 0
+      },
+      "expiresAfterDays": 30,
+      "startsAt": "2026-10-01T00:00:00Z"
+    }
+  ]
+}

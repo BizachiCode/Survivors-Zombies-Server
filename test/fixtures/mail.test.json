@@ -1,0 +1,24 @@
+{
+  "broadcasts": [
+    {
+      "id": "welcome",
+      "sender": "Test Cove",
+      "title": { "en": "Welcome", "pt": "Bem-vindo" },
+      "body": "Hello captain",
+      "attachments": { "currencies": { "coins": 500, "gems": 20 }, "items": { "seeds.wild": 3 }, "exp": 40 },
+      "expiresAfterDays": 0
+    },
+    {
+      "id": "gift",
+      "title": "Gift",
+      "body": "Items only",
+      "attachments": { "items": { "plant_xp": 100, "meteor_shard": 10 } },
+      "startsAt": "2026-10-01T00:00:00Z",
+      "endsAt": "2026-10-25T00:00:00Z",
+      "expiresAfterDays": 2
+    },
+    { "id": "later", "title": "Later", "body": "Starts next month", "startsAt": "2026-11-01T00:00:00Z" },
+    { "id": "ended", "title": "Ended", "body": "Ended last week", "endsAt": "2026-10-10T00:00:00Z" },
+    { "id": "notice", "title": "Notice", "body": "Just a message" }
+  ]
+}

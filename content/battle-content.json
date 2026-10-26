@@ -1,0 +1,5114 @@
+{
+  "version": 1,
+  "defenders": [
+    {
+      "id": "henry",
+      "name": "Henry",
+      "role": "Generator",
+      "cost": 50,
+      "recharge": 5.0,
+      "levels": [
+        {
+          "health": 120.0,
+          "damage": 0.0,
+          "interval": 5.0,
+          "range": 1.0,
+          "projectileSpeed": 8.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 25,
+          "upgradeCost": 0,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        },
+        {
+          "health": 180.0,
+          "damage": 0.0,
+          "interval": 5.0,
+          "range": 1.0,
+          "projectileSpeed": 8.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 38,
+          "upgradeCost": 50,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        },
+        {
+          "health": 264.0,
+          "damage": 0.0,
+          "interval": 5.0,
+          "range": 1.0,
+          "projectileSpeed": 8.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 55,
+          "upgradeCost": 50,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        }
+      ]
+    },
+    {
+      "id": "lis",
+      "name": "Lis",
+      "role": "Shooter",
+      "cost": 100,
+      "recharge": 5.0,
+      "levels": [
+        {
+          "health": 160.0,
+          "damage": 22.0,
+          "interval": 0.89999997615814209,
+          "range": 9.0,
+          "projectileSpeed": 11.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 0,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        },
+        {
+          "health": 240.0,
+          "damage": 33.0,
+          "interval": 0.89999997615814209,
+          "range": 9.0,
+          "projectileSpeed": 11.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 100,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        },
+        {
+          "health": 352.0,
+          "damage": 48.400001525878906,
+          "interval": 0.89999997615814209,
+          "range": 9.0,
+          "projectileSpeed": 11.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 100,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        }
+      ]
+    },
+    {
+      "id": "matt",
+      "name": "Matt",
+      "role": "Shooter",
+      "cost": 175,
+      "recharge": 8.0,
+      "levels": [
+        {
+          "health": 150.0,
+          "damage": 55.0,
+          "interval": 2.0,
+          "range": 10.0,
+          "projectileSpeed": 16.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 0,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 3
+        },
+        {
+          "health": 225.0,
+          "damage": 82.5,
+          "interval": 2.0,
+          "range": 10.0,
+          "projectileSpeed": 16.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 175,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 3
+        },
+        {
+          "health": 330.0,
+          "damage": 121.0,
+          "interval": 2.0,
+          "range": 10.0,
+          "projectileSpeed": 16.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 175,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 3
+        }
+      ]
+    },
+    {
+      "id": "captain",
+      "name": "Captain Barbarossa",
+      "role": "Shooter",
+      "cost": 200,
+      "recharge": 8.0,
+      "levels": [
+        {
+          "health": 420.0,
+          "damage": 45.0,
+          "interval": 1.1000000238418579,
+          "range": 1.3999999761581421,
+          "projectileSpeed": 20.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 0,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        },
+        {
+          "health": 630.0,
+          "damage": 67.5,
+          "interval": 1.1000000238418579,
+          "range": 1.3999999761581421,
+          "projectileSpeed": 20.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 200,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        },
+        {
+          "health": 924.0,
+          "damage": 99.0,
+          "interval": 1.1000000238418579,
+          "range": 1.3999999761581421,
+          "projectileSpeed": 20.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 200,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        }
+      ]
+    },
+    {
+      "id": "anne",
+      "name": "Anne",
+      "role": "Shooter",
+      "cost": 175,
+      "recharge": 8.0,
+      "levels": [
+        {
+          "health": 360.0,
+          "damage": 55.0,
+          "interval": 1.3999999761581421,
+          "range": 1.3999999761581421,
+          "projectileSpeed": 20.0,
+          "splashRadius": 0.5,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 0,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        },
+        {
+          "health": 540.0,
+          "damage": 82.5,
+          "interval": 1.3999999761581421,
+          "range": 1.3999999761581421,
+          "projectileSpeed": 20.0,
+          "splashRadius": 0.5,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 175,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        },
+        {
+          "health": 792.0,
+          "damage": 121.0,
+          "interval": 1.3999999761581421,
+          "range": 1.3999999761581421,
+          "projectileSpeed": 20.0,
+          "splashRadius": 0.5,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 175,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        }
+      ]
+    },
+    {
+      "id": "sam",
+      "name": "Sam",
+      "role": "Barrier",
+      "cost": 75,
+      "recharge": 12.0,
+      "levels": [
+        {
+          "health": 900.0,
+          "damage": 0.0,
+          "interval": 1.2000000476837158,
+          "range": 1.0,
+          "projectileSpeed": 8.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 0,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        },
+        {
+          "health": 1350.0,
+          "damage": 0.0,
+          "interval": 1.2000000476837158,
+          "range": 1.0,
+          "projectileSpeed": 8.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 75,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        },
+        {
+          "health": 1980.0,
+          "damage": 0.0,
+          "interval": 1.2000000476837158,
+          "range": 1.0,
+          "projectileSpeed": 8.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 75,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        }
+      ]
+    },
+    {
+      "id": "shaun",
+      "name": "Shaun",
+      "role": "Shooter",
+      "cost": 150,
+      "recharge": 7.0,
+      "levels": [
+        {
+          "health": 180.0,
+          "damage": 40.0,
+          "interval": 1.5,
+          "range": 4.0,
+          "projectileSpeed": 12.0,
+          "splashRadius": 0.60000002384185791,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 0,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        },
+        {
+          "health": 270.0,
+          "damage": 60.0,
+          "interval": 1.5,
+          "range": 4.0,
+          "projectileSpeed": 12.0,
+          "splashRadius": 0.60000002384185791,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 150,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        },
+        {
+          "health": 396.0,
+          "damage": 88.0,
+          "interval": 1.5,
+          "range": 4.0,
+          "projectileSpeed": 12.0,
+          "splashRadius": 0.60000002384185791,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 150,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        }
+      ]
+    },
+    {
+      "id": "dog",
+      "name": "Rex",
+      "role": "Shooter",
+      "cost": 125,
+      "recharge": 7.0,
+      "levels": [
+        {
+          "health": 260.0,
+          "damage": 30.0,
+          "interval": 1.1000000238418579,
+          "range": 1.2999999523162842,
+          "projectileSpeed": 22.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 0,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        },
+        {
+          "health": 390.0,
+          "damage": 45.0,
+          "interval": 1.1000000238418579,
+          "range": 1.2999999523162842,
+          "projectileSpeed": 22.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 125,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        },
+        {
+          "health": 572.0,
+          "damage": 66.0,
+          "interval": 1.1000000238418579,
+          "range": 1.2999999523162842,
+          "projectileSpeed": 22.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 125,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        }
+      ]
+    },
+    {
+      "id": "pug",
+      "name": "Pug",
+      "role": "Barrier",
+      "cost": 50,
+      "recharge": 12.0,
+      "levels": [
+        {
+          "health": 500.0,
+          "damage": 0.0,
+          "interval": 1.2000000476837158,
+          "range": 1.0,
+          "projectileSpeed": 8.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 0,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        },
+        {
+          "health": 750.0,
+          "damage": 0.0,
+          "interval": 1.2000000476837158,
+          "range": 1.0,
+          "projectileSpeed": 8.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 50,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        },
+        {
+          "health": 1100.0,
+          "damage": 0.0,
+          "interval": 1.2000000476837158,
+          "range": 1.0,
+          "projectileSpeed": 8.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 50,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        }
+      ]
+    },
+    {
+      "id": "mako",
+      "name": "Mako",
+      "role": "Shooter",
+      "cost": 150,
+      "recharge": 7.0,
+      "levels": [
+        {
+          "health": 300.0,
+          "damage": 30.0,
+          "interval": 0.800000011920929,
+          "range": 1.3999999761581421,
+          "projectileSpeed": 20.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 0,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        },
+        {
+          "health": 450.0,
+          "damage": 45.0,
+          "interval": 0.800000011920929,
+          "range": 1.3999999761581421,
+          "projectileSpeed": 20.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 150,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        },
+        {
+          "health": 660.0,
+          "damage": 66.0,
+          "interval": 0.800000011920929,
+          "range": 1.3999999761581421,
+          "projectileSpeed": 20.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 150,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        }
+      ]
+    },
+    {
+      "id": "sharky",
+      "name": "Sharky",
+      "role": "Shooter",
+      "cost": 150,
+      "recharge": 7.0,
+      "levels": [
+        {
+          "health": 340.0,
+          "damage": 36.0,
+          "interval": 1.0,
+          "range": 1.3999999761581421,
+          "projectileSpeed": 20.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 0,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        },
+        {
+          "health": 510.0,
+          "damage": 54.0,
+          "interval": 1.0,
+          "range": 1.3999999761581421,
+          "projectileSpeed": 20.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 150,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        },
+        {
+          "health": 748.0,
+          "damage": 79.200004577636719,
+          "interval": 1.0,
+          "range": 1.3999999761581421,
+          "projectileSpeed": 20.0,
+          "splashRadius": 0.0,
+          "slowFraction": 0.0,
+          "slowDuration": 0.0,
+          "production": 0,
+          "upgradeCost": 150,
+          "stunDuration": 0.0,
+          "burnDamagePerSecond": 0.0,
+          "burnDuration": 0.0,
+          "pierceCount": 1
+        }
+      ]
+    }
+  ],
+  "enemies": [
+    {
+      "id": "zombie_basic",
+      "health": 120.0,
+      "speed": 0.30000001192092896,
+      "damage": 18.0,
+      "attackInterval": 1.0,
+      "armor": 0.0,
+      "reward": 10,
+      "baseDamage": 1,
+      "reach": 0.60000002384185791,
+      "phases": []
+    },
+    {
+      "id": "zombie_crawler",
+      "health": 70.0,
+      "speed": 0.60000002384185791,
+      "damage": 12.0,
+      "attackInterval": 0.699999988079071,
+      "armor": 0.0,
+      "reward": 10,
+      "baseDamage": 1,
+      "reach": 0.60000002384185791,
+      "phases": []
+    },
+    {
+      "id": "skeleton",
+      "health": 150.0,
+      "speed": 0.31999999284744263,
+      "damage": 20.0,
+      "attackInterval": 1.0,
+      "armor": 0.0,
+      "reward": 10,
+      "baseDamage": 1,
+      "reach": 0.60000002384185791,
+      "phases": []
+    },
+    {
+      "id": "zombie_chubby",
+      "health": 420.0,
+      "speed": 0.18000000715255737,
+      "damage": 30.0,
+      "attackInterval": 1.2000000476837158,
+      "armor": 0.20000000298023224,
+      "reward": 10,
+      "baseDamage": 1,
+      "reach": 0.60000002384185791,
+      "phases": []
+    },
+    {
+      "id": "skeleton_headless",
+      "health": 220.0,
+      "speed": 0.25999999046325684,
+      "damage": 26.0,
+      "attackInterval": 1.1000000238418579,
+      "armor": 0.10000000149011612,
+      "reward": 10,
+      "baseDamage": 1,
+      "reach": 0.60000002384185791,
+      "phases": []
+    },
+    {
+      "id": "tentacle",
+      "health": 900.0,
+      "speed": 0.0,
+      "damage": 45.0,
+      "attackInterval": 1.7999999523162842,
+      "armor": 0.15000000596046448,
+      "reward": 50,
+      "baseDamage": 1,
+      "reach": 1.6000000238418579,
+      "phases": [
+        {
+          "healthFraction": 0.5,
+          "speedMultiplier": 1.0,
+          "damageMultiplier": 1.2999999523162842,
+          "incomingDamageMultiplier": 1.0,
+          "pulseInterval": 6.0,
+          "pulseDamage": 30.0
+        }
+      ]
+    },
+    {
+      "id": "zombie_arm",
+      "health": 90.0,
+      "speed": 0.44999998807907104,
+      "damage": 14.0,
+      "attackInterval": 0.800000011920929,
+      "armor": 0.0,
+      "reward": 10,
+      "baseDamage": 1,
+      "reach": 0.60000002384185791,
+      "phases": []
+    },
+    {
+      "id": "shark",
+      "health": 110.0,
+      "speed": 0.5,
+      "damage": 22.0,
+      "attackInterval": 0.89999997615814209,
+      "armor": 0.0,
+      "reward": 10,
+      "baseDamage": 1,
+      "reach": 0.60000002384185791,
+      "phases": []
+    }
+  ],
+  "difficulties": [
+    {
+      "id": "normal",
+      "enemyHealth": 1.0,
+      "enemySpeed": 1.0,
+      "enemyDamage": 1.0
+    },
+    {
+      "id": "hard",
+      "enemyHealth": 1.3999999761581421,
+      "enemySpeed": 1.1000000238418579,
+      "enemyDamage": 1.25
+    }
+  ],
+  "encounters": [
+    {
+      "id": "ce017b187c1440d09d70a08b84ee2e90",
+      "settings": {
+        "lanes": 5,
+        "columns": 9,
+        "startingEnergy": 150,
+        "energyCap": 9999,
+        "baseHealth": 3,
+        "passiveEnergyPerSecond": 3.0,
+        "tickSeconds": 0.05,
+        "refundFraction": 0.5,
+        "laneGuards": true
+      },
+      "seed": 21,
+      "deckMode": "player",
+      "deck": [
+        "henry",
+        "lis",
+        "matt",
+        "captain",
+        "anne",
+        "sam"
+      ],
+      "waves": [
+        {
+          "startTime": 14.0,
+          "groups": [
+            {
+              "enemy": "zombie_basic",
+              "count": 4,
+              "lane": -1,
+              "delay": 0.0,
+              "interval": 7.0,
+              "column": -1
+            }
+          ]
+        },
+        {
+          "startTime": 48.0,
+          "groups": [
+            {
+              "enemy": "zombie_basic",
+              "count": 6,
+              "lane": -1,
+              "delay": 0.0,
+              "interval": 4.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_crawler",
+              "count": 3,
+              "lane": -1,
+              "delay": 8.0,
+              "interval": 5.0,
+              "column": -1
+            }
+          ]
+        },
+        {
+          "startTime": 85.0,
+          "groups": [
+            {
+              "enemy": "skeleton",
+              "count": 4,
+              "lane": -1,
+              "delay": 0.0,
+              "interval": 5.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_chubby",
+              "count": 2,
+              "lane": -1,
+              "delay": 6.0,
+              "interval": 9.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_basic",
+              "count": 6,
+              "lane": -1,
+              "delay": 2.0,
+              "interval": 3.0,
+              "column": -1
+            }
+          ]
+        },
+        {
+          "startTime": 125.0,
+          "groups": [
+            {
+              "enemy": "skeleton_headless",
+              "count": 3,
+              "lane": -1,
+              "delay": 0.0,
+              "interval": 6.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_chubby",
+              "count": 3,
+              "lane": -1,
+              "delay": 4.0,
+              "interval": 7.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_basic",
+              "count": 8,
+              "lane": -1,
+              "delay": 0.0,
+              "interval": 2.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_crawler",
+              "count": 5,
+              "lane": -1,
+              "delay": 6.0,
+              "interval": 3.0,
+              "column": -1
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "id": "pirate_cove_tentacles",
+      "settings": {
+        "lanes": 5,
+        "columns": 9,
+        "startingEnergy": 150,
+        "energyCap": 9999,
+        "baseHealth": 3,
+        "passiveEnergyPerSecond": 3.0,
+        "tickSeconds": 0.05,
+        "refundFraction": 0.5,
+        "laneGuards": true
+      },
+      "seed": 0,
+      "deckMode": "player",
+      "deck": [
+        "henry",
+        "lis",
+        "matt",
+        "captain",
+        "anne",
+        "sam"
+      ],
+      "waves": [
+        {
+          "startTime": 14.0,
+          "groups": [
+            {
+              "enemy": "zombie_basic",
+              "count": 4,
+              "lane": -1,
+              "delay": 0.0,
+              "interval": 7.0,
+              "column": -1
+            }
+          ]
+        },
+        {
+          "startTime": 48.0,
+          "groups": [
+            {
+              "enemy": "zombie_basic",
+              "count": 6,
+              "lane": -1,
+              "delay": 0.0,
+              "interval": 4.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_crawler",
+              "count": 3,
+              "lane": -1,
+              "delay": 8.0,
+              "interval": 5.0,
+              "column": -1
+            },
+            {
+              "enemy": "tentacle",
+              "count": 1,
+              "lane": -1,
+              "delay": 6.0,
+              "interval": 1.0,
+              "column": 6
+            }
+          ]
+        },
+        {
+          "startTime": 85.0,
+          "groups": [
+            {
+              "enemy": "skeleton",
+              "count": 4,
+              "lane": -1,
+              "delay": 0.0,
+              "interval": 5.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_chubby",
+              "count": 2,
+              "lane": -1,
+              "delay": 6.0,
+              "interval": 9.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_basic",
+              "count": 6,
+              "lane": -1,
+              "delay": 2.0,
+              "interval": 3.0,
+              "column": -1
+            }
+          ]
+        },
+        {
+          "startTime": 125.0,
+          "groups": [
+            {
+              "enemy": "skeleton_headless",
+              "count": 3,
+              "lane": -1,
+              "delay": 0.0,
+              "interval": 6.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_chubby",
+              "count": 3,
+              "lane": -1,
+              "delay": 4.0,
+              "interval": 7.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_basic",
+              "count": 8,
+              "lane": -1,
+              "delay": 0.0,
+              "interval": 2.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_crawler",
+              "count": 5,
+              "lane": -1,
+              "delay": 6.0,
+              "interval": 3.0,
+              "column": -1
+            },
+            {
+              "enemy": "tentacle",
+              "count": 2,
+              "lane": -1,
+              "delay": 4.0,
+              "interval": 9.0,
+              "column": 5
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "id": "pirate_cove_arena",
+      "settings": {
+        "lanes": 5,
+        "columns": 9,
+        "startingEnergy": 200,
+        "energyCap": 9999,
+        "baseHealth": 3,
+        "passiveEnergyPerSecond": 3.0,
+        "tickSeconds": 0.05,
+        "refundFraction": 0.5,
+        "laneGuards": true
+      },
+      "seed": 0,
+      "deckMode": "player",
+      "deck": [
+        "henry",
+        "lis",
+        "matt",
+        "captain",
+        "anne",
+        "sam"
+      ],
+      "waves": [
+        {
+          "startTime": 12.0,
+          "groups": [
+            {
+              "enemy": "zombie_basic",
+              "count": 5,
+              "lane": -1,
+              "delay": 0.0,
+              "interval": 5.0,
+              "column": -1
+            }
+          ]
+        },
+        {
+          "startTime": 40.0,
+          "groups": [
+            {
+              "enemy": "zombie_basic",
+              "count": 6,
+              "lane": -1,
+              "delay": 0.0,
+              "interval": 4.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_crawler",
+              "count": 3,
+              "lane": -1,
+              "delay": 6.0,
+              "interval": 4.0,
+              "column": -1
+            }
+          ]
+        },
+        {
+          "startTime": 70.0,
+          "groups": [
+            {
+              "enemy": "skeleton",
+              "count": 4,
+              "lane": -1,
+              "delay": 0.0,
+              "interval": 4.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_basic",
+              "count": 6,
+              "lane": -1,
+              "delay": 2.0,
+              "interval": 3.0,
+              "column": -1
+            }
+          ]
+        },
+        {
+          "startTime": 100.0,
+          "groups": [
+            {
+              "enemy": "zombie_chubby",
+              "count": 3,
+              "lane": -1,
+              "delay": 0.0,
+              "interval": 6.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_crawler",
+              "count": 5,
+              "lane": -1,
+              "delay": 4.0,
+              "interval": 3.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_arm",
+              "count": 4,
+              "lane": -1,
+              "delay": 8.0,
+              "interval": 3.0,
+              "column": -1
+            }
+          ]
+        },
+        {
+          "startTime": 130.0,
+          "groups": [
+            {
+              "enemy": "skeleton",
+              "count": 6,
+              "lane": -1,
+              "delay": 0.0,
+              "interval": 3.0,
+              "column": -1
+            },
+            {
+              "enemy": "skeleton_headless",
+              "count": 3,
+              "lane": -1,
+              "delay": 6.0,
+              "interval": 5.0,
+              "column": -1
+            },
+            {
+              "enemy": "shark",
+              "count": 3,
+              "lane": -1,
+              "delay": 10.0,
+              "interval": 4.0,
+              "column": -1
+            }
+          ]
+        },
+        {
+          "startTime": 160.0,
+          "groups": [
+            {
+              "enemy": "zombie_chubby",
+              "count": 4,
+              "lane": -1,
+              "delay": 0.0,
+              "interval": 5.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_basic",
+              "count": 10,
+              "lane": -1,
+              "delay": 2.0,
+              "interval": 2.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_crawler",
+              "count": 6,
+              "lane": -1,
+              "delay": 6.0,
+              "interval": 2.0,
+              "column": -1
+            }
+          ]
+        },
+        {
+          "startTime": 190.0,
+          "groups": [
+            {
+              "enemy": "skeleton_headless",
+              "count": 5,
+              "lane": -1,
+              "delay": 0.0,
+              "interval": 4.0,
+              "column": -1
+            },
+            {
+              "enemy": "skeleton",
+              "count": 6,
+              "lane": -1,
+              "delay": 3.0,
+              "interval": 3.0,
+              "column": -1
+            },
+            {
+              "enemy": "tentacle",
+              "count": 1,
+              "lane": -1,
+              "delay": 10.0,
+              "interval": 1.0,
+              "column": 6
+            }
+          ]
+        },
+        {
+          "startTime": 220.0,
+          "groups": [
+            {
+              "enemy": "shark",
+              "count": 6,
+              "lane": -1,
+              "delay": 0.0,
+              "interval": 2.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_arm",
+              "count": 6,
+              "lane": -1,
+              "delay": 4.0,
+              "interval": 2.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_chubby",
+              "count": 5,
+              "lane": -1,
+              "delay": 8.0,
+              "interval": 4.0,
+              "column": -1
+            }
+          ]
+        },
+        {
+          "startTime": 250.0,
+          "groups": [
+            {
+              "enemy": "skeleton_headless",
+              "count": 6,
+              "lane": -1,
+              "delay": 0.0,
+              "interval": 3.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_chubby",
+              "count": 6,
+              "lane": -1,
+              "delay": 4.0,
+              "interval": 4.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_basic",
+              "count": 12,
+              "lane": -1,
+              "delay": 2.0,
+              "interval": 1.5,
+              "column": -1
+            },
+            {
+              "enemy": "tentacle",
+              "count": 2,
+              "lane": -1,
+              "delay": 12.0,
+              "interval": 8.0,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "startTime": 280.0,
+          "groups": [
+            {
+              "enemy": "skeleton",
+              "count": 10,
+              "lane": -1,
+              "delay": 0.0,
+              "interval": 2.0,
+              "column": -1
+            },
+            {
+              "enemy": "skeleton_headless",
+              "count": 8,
+              "lane": -1,
+              "delay": 4.0,
+              "interval": 3.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_chubby",
+              "count": 8,
+              "lane": -1,
+              "delay": 6.0,
+              "interval": 3.0,
+              "column": -1
+            },
+            {
+              "enemy": "zombie_crawler",
+              "count": 10,
+              "lane": -1,
+              "delay": 8.0,
+              "interval": 1.5,
+              "column": -1
+            },
+            {
+              "enemy": "tentacle",
+              "count": 2,
+              "lane": -1,
+              "delay": 14.0,
+              "interval": 9.0,
+              "column": 5
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    }
+  ],
+  "stages": [
+    {
+      "id": "pirate_cove_1_1",
+      "title": {
+        "en": "Pirate Cove 1-1",
+        "pt": "Enseada dos Piratas 1-1",
+        "es": "Cala Pirata 1-1",
+        "zh": "海盗湾 1-1",
+        "ja": "パイレーツコーブ 1-1",
+        "ko": "해적 만 1-1"
+      },
+      "location": "suburb",
+      "encounter": "ce017b187c1440d09d70a08b84ee2e90",
+      "difficulty": "normal",
+      "requiredLevel": 0,
+      "threeStarSeconds": 210.0,
+      "prerequisites": [],
+      "victoryReward": {
+        "currencies": {
+          "coins": 120
+        },
+        "items": {
+          "crew_xp": 60,
+          "tokens.anne": 3
+        },
+        "exp": 60
+      },
+      "firstClearBonus": {
+        "currencies": {
+          "gems": 10
+        },
+        "items": {
+          "crew_xp": 100,
+          "tokens.anne": 5,
+          "moon_shard": 20
+        },
+        "exp": 40
+      },
+      "defeatReward": {
+        "currencies": {},
+        "items": {
+          "crew_xp": 15
+        },
+        "exp": 10
+      }
+    },
+    {
+      "id": "pirate_cove_1_2",
+      "title": {
+        "en": "Pirate Cove 1-2",
+        "pt": "Enseada dos Piratas 1-2",
+        "es": "Cala Pirata 1-2",
+        "zh": "海盗湾 1-2",
+        "ja": "パイレーツコーブ 1-2",
+        "ko": "해적 만 1-2"
+      },
+      "location": "suburb",
+      "encounter": "pirate_cove_tentacles",
+      "difficulty": "hard",
+      "requiredLevel": 0,
+      "threeStarSeconds": 240.0,
+      "prerequisites": [
+        "pirate_cove_1_1"
+      ],
+      "victoryReward": {
+        "currencies": {
+          "coins": 180
+        },
+        "items": {
+          "crew_xp": 90,
+          "tokens.shaun": 4,
+          "tokens.wild": 2
+        },
+        "exp": 80
+      },
+      "firstClearBonus": {
+        "currencies": {
+          "gems": 15
+        },
+        "items": {
+          "crew_xp": 150,
+          "moon_shard": 40,
+          "tokens.wild": 5
+        },
+        "exp": 60
+      },
+      "defeatReward": {
+        "currencies": {},
+        "items": {
+          "crew_xp": 20
+        },
+        "exp": 15
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "crew_xp",
+      "name": "Crew XP",
+      "kind": "resource",
+      "card": ""
+    },
+    {
+      "id": "moon_shard",
+      "name": "Moon Shard",
+      "kind": "material",
+      "card": ""
+    },
+    {
+      "id": "moon_rock",
+      "name": "Moon Rock",
+      "kind": "material",
+      "card": ""
+    },
+    {
+      "id": "tokens.wild",
+      "name": "Wild Tokens",
+      "kind": "seed",
+      "card": ""
+    },
+    {
+      "id": "tokens.anne",
+      "name": "Anne Tokens",
+      "kind": "seed",
+      "card": "anne"
+    },
+    {
+      "id": "tokens.shaun",
+      "name": "Shaun Tokens",
+      "kind": "seed",
+      "card": "shaun"
+    },
+    {
+      "id": "tokens.sharky",
+      "name": "Sharky Tokens",
+      "kind": "seed",
+      "card": "sharky"
+    }
+  ],
+  "collection": {
+    "deckSize": 5,
+    "startingItems": {
+      "crew_xp": 50
+    },
+    "cards": [
+      {
+        "card": "henry",
+        "rarity": "common",
+        "unlock": [
+          {
+            "method": "starter"
+          }
+        ],
+        "curve": "crew",
+        "abilities": [
+          {
+            "level": 5,
+            "name": "Encore",
+            "description": "+5 energy per song.",
+            "modifiers": [
+              {
+                "stat": "production",
+                "op": "add",
+                "value": 5.0
+              }
+            ]
+          },
+          {
+            "level": 10,
+            "name": "Quick Tempo",
+            "description": "Plays 15% faster.",
+            "modifiers": [
+              {
+                "stat": "interval",
+                "op": "multiply",
+                "value": 0.85
+              }
+            ]
+          },
+          {
+            "level": 15,
+            "name": "Crowd Pleaser",
+            "description": "+10 energy per song.",
+            "modifiers": [
+              {
+                "stat": "production",
+                "op": "add",
+                "value": 10.0
+              }
+            ]
+          },
+          {
+            "level": 20,
+            "name": "Standing Ovation",
+            "description": "Plays 20% faster.",
+            "modifiers": [
+              {
+                "stat": "interval",
+                "op": "multiply",
+                "value": 0.8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "card": "lis",
+        "rarity": "common",
+        "unlock": [
+          {
+            "method": "starter"
+          }
+        ],
+        "curve": "crew",
+        "abilities": [
+          {
+            "level": 5,
+            "name": "Piercing Rounds",
+            "description": "Shots go through 2 zombies.",
+            "modifiers": [
+              {
+                "stat": "pierceCount",
+                "op": "add",
+                "value": 1.0
+              }
+            ]
+          },
+          {
+            "level": 10,
+            "name": "Rapid Fire",
+            "description": "Shoots 15% faster.",
+            "modifiers": [
+              {
+                "stat": "interval",
+                "op": "multiply",
+                "value": 0.85
+              }
+            ]
+          },
+          {
+            "level": 15,
+            "name": "Hollow Points",
+            "description": "+20% damage.",
+            "modifiers": [
+              {
+                "stat": "damage",
+                "op": "multiply",
+                "value": 1.2
+              }
+            ]
+          },
+          {
+            "level": 20,
+            "name": "Overdrive",
+            "description": "Shots go through 3 zombies, 15% faster.",
+            "modifiers": [
+              {
+                "stat": "pierceCount",
+                "op": "add",
+                "value": 1.0
+              },
+              {
+                "stat": "interval",
+                "op": "multiply",
+                "value": 0.85
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "card": "sam",
+        "rarity": "common",
+        "unlock": [
+          {
+            "method": "starter"
+          }
+        ],
+        "curve": "crew",
+        "abilities": [
+          {
+            "level": 5,
+            "name": "Thick Skin",
+            "description": "+20% health.",
+            "modifiers": [
+              {
+                "stat": "health",
+                "op": "multiply",
+                "value": 1.2
+              }
+            ]
+          },
+          {
+            "level": 10,
+            "name": "Quick Setup",
+            "description": "Recharges 25% faster.",
+            "modifiers": [
+              {
+                "stat": "recharge",
+                "op": "multiply",
+                "value": 0.75
+              }
+            ]
+          },
+          {
+            "level": 15,
+            "name": "Barricade",
+            "description": "+25% health.",
+            "modifiers": [
+              {
+                "stat": "health",
+                "op": "multiply",
+                "value": 1.25
+              }
+            ]
+          },
+          {
+            "level": 20,
+            "name": "Unbreakable",
+            "description": "+30% health.",
+            "modifiers": [
+              {
+                "stat": "health",
+                "op": "multiply",
+                "value": 1.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "card": "matt",
+        "rarity": "common",
+        "unlock": [
+          {
+            "method": "starter"
+          }
+        ],
+        "curve": "crew",
+        "abilities": [
+          {
+            "level": 5,
+            "name": "Steady Aim",
+            "description": "+15% damage.",
+            "modifiers": [
+              {
+                "stat": "damage",
+                "op": "multiply",
+                "value": 1.15
+              }
+            ]
+          },
+          {
+            "level": 10,
+            "name": "Penetrator",
+            "description": "Shots go through 4 zombies.",
+            "modifiers": [
+              {
+                "stat": "pierceCount",
+                "op": "add",
+                "value": 1.0
+              }
+            ]
+          },
+          {
+            "level": 15,
+            "name": "Quick Reload",
+            "description": "Shoots 15% faster.",
+            "modifiers": [
+              {
+                "stat": "interval",
+                "op": "multiply",
+                "value": 0.85
+              }
+            ]
+          },
+          {
+            "level": 20,
+            "name": "Deadeye",
+            "description": "+25% damage.",
+            "modifiers": [
+              {
+                "stat": "damage",
+                "op": "multiply",
+                "value": 1.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "card": "captain",
+        "rarity": "rare",
+        "unlock": [
+          {
+            "method": "stage",
+            "stage": "pirate_cove_1_1"
+          },
+          {
+            "method": "purchase",
+            "currency": "gems",
+            "amount": 30
+          }
+        ],
+        "curve": "crew_rare",
+        "abilities": [
+          {
+            "level": 5,
+            "name": "Parrot Scout",
+            "description": "Reaches a little further.",
+            "modifiers": [
+              {
+                "stat": "range",
+                "op": "add",
+                "value": 0.3
+              }
+            ]
+          },
+          {
+            "level": 10,
+            "name": "Cutlass Flurry",
+            "description": "Strikes 15% faster.",
+            "modifiers": [
+              {
+                "stat": "interval",
+                "op": "multiply",
+                "value": 0.85
+              }
+            ]
+          },
+          {
+            "level": 15,
+            "name": "Old Sea Dog",
+            "description": "+25% health.",
+            "modifiers": [
+              {
+                "stat": "health",
+                "op": "multiply",
+                "value": 1.25
+              }
+            ]
+          },
+          {
+            "level": 20,
+            "name": "Broadside",
+            "description": "Hits every zombie around.",
+            "modifiers": [
+              {
+                "stat": "splashRadius",
+                "op": "add",
+                "value": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "card": "anne",
+        "rarity": "rare",
+        "unlock": [
+          {
+            "method": "seeds",
+            "item": "tokens.anne",
+            "amount": 10,
+            "wildItem": "tokens.wild"
+          }
+        ],
+        "curve": "crew_rare",
+        "abilities": [
+          {
+            "level": 5,
+            "name": "Wide Swing",
+            "description": "Hits a wider area.",
+            "modifiers": [
+              {
+                "stat": "splashRadius",
+                "op": "add",
+                "value": 0.2
+              }
+            ]
+          },
+          {
+            "level": 10,
+            "name": "Battle Cry",
+            "description": "+15% damage.",
+            "modifiers": [
+              {
+                "stat": "damage",
+                "op": "multiply",
+                "value": 1.15
+              }
+            ]
+          },
+          {
+            "level": 15,
+            "name": "Cheap Hire",
+            "description": "Costs 25 less energy.",
+            "modifiers": [
+              {
+                "stat": "cost",
+                "op": "add",
+                "value": -25.0
+              }
+            ]
+          },
+          {
+            "level": 20,
+            "name": "Fury",
+            "description": "Strikes 20% faster.",
+            "modifiers": [
+              {
+                "stat": "interval",
+                "op": "multiply",
+                "value": 0.8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "card": "shaun",
+        "rarity": "rare",
+        "unlock": [
+          {
+            "method": "seeds",
+            "item": "tokens.shaun",
+            "amount": 15,
+            "wildItem": "tokens.wild"
+          }
+        ],
+        "curve": "tokens_coins.shaun",
+        "abilities": [
+          {
+            "level": 3,
+            "name": "Long Throw",
+            "description": "Throws one cell further.",
+            "modifiers": [
+              {
+                "stat": "range",
+                "op": "add",
+                "value": 1.0
+              }
+            ]
+          },
+          {
+            "level": 5,
+            "name": "Sticky Bombs",
+            "description": "Slows zombies by 30% for 2 s.",
+            "modifiers": [
+              {
+                "stat": "slowFraction",
+                "op": "add",
+                "value": 0.3
+              },
+              {
+                "stat": "slowDuration",
+                "op": "add",
+                "value": 2.0
+              }
+            ]
+          },
+          {
+            "level": 8,
+            "name": "Big Bang",
+            "description": "Bigger explosions.",
+            "modifiers": [
+              {
+                "stat": "splashRadius",
+                "op": "add",
+                "value": 0.3
+              }
+            ]
+          },
+          {
+            "level": 10,
+            "name": "Demolition",
+            "description": "+30% damage.",
+            "modifiers": [
+              {
+                "stat": "damage",
+                "op": "multiply",
+                "value": 1.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "card": "dog",
+        "rarity": "common",
+        "unlock": [
+          {
+            "method": "purchase",
+            "currency": "coins",
+            "amount": 750
+          }
+        ],
+        "curve": "crew",
+        "abilities": [
+          {
+            "level": 5,
+            "name": "Good Boy",
+            "description": "+20% health.",
+            "modifiers": [
+              {
+                "stat": "health",
+                "op": "multiply",
+                "value": 1.2
+              }
+            ]
+          },
+          {
+            "level": 10,
+            "name": "Lockjaw",
+            "description": "Bites stun zombies for 0.4 s.",
+            "modifiers": [
+              {
+                "stat": "stunDuration",
+                "op": "add",
+                "value": 0.4
+              }
+            ]
+          },
+          {
+            "level": 15,
+            "name": "Pack Leader",
+            "description": "+20% damage.",
+            "modifiers": [
+              {
+                "stat": "damage",
+                "op": "multiply",
+                "value": 1.2
+              }
+            ]
+          },
+          {
+            "level": 20,
+            "name": "Alpha",
+            "description": "Bites 20% faster.",
+            "modifiers": [
+              {
+                "stat": "interval",
+                "op": "multiply",
+                "value": 0.8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "card": "pug",
+        "rarity": "common",
+        "unlock": [
+          {
+            "method": "level",
+            "level": 3
+          }
+        ],
+        "curve": "crew",
+        "abilities": [
+          {
+            "level": 5,
+            "name": "Snack Break",
+            "description": "Recharges 20% faster.",
+            "modifiers": [
+              {
+                "stat": "recharge",
+                "op": "multiply",
+                "value": 0.8
+              }
+            ]
+          },
+          {
+            "level": 10,
+            "name": "Chonk",
+            "description": "+30% health.",
+            "modifiers": [
+              {
+                "stat": "health",
+                "op": "multiply",
+                "value": 1.3
+              }
+            ]
+          },
+          {
+            "level": 15,
+            "name": "Bargain",
+            "description": "Costs 15 less energy.",
+            "modifiers": [
+              {
+                "stat": "cost",
+                "op": "add",
+                "value": -15.0
+              }
+            ]
+          },
+          {
+            "level": 20,
+            "name": "Very Good Boy",
+            "description": "+30% health.",
+            "modifiers": [
+              {
+                "stat": "health",
+                "op": "multiply",
+                "value": 1.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "card": "mako",
+        "rarity": "epic",
+        "unlock": [
+          {
+            "method": "stage",
+            "stage": "pirate_cove_1_2"
+          }
+        ],
+        "curve": "crew_rare",
+        "abilities": [
+          {
+            "level": 5,
+            "name": "Frenzy",
+            "description": "Bites 10% faster.",
+            "modifiers": [
+              {
+                "stat": "interval",
+                "op": "multiply",
+                "value": 0.9
+              }
+            ]
+          },
+          {
+            "level": 10,
+            "name": "Bleed",
+            "description": "Bitten zombies lose 8 health/s for 3 s.",
+            "modifiers": [
+              {
+                "stat": "burnDamagePerSecond",
+                "op": "add",
+                "value": 8.0
+              },
+              {
+                "stat": "burnDuration",
+                "op": "add",
+                "value": 3.0
+              }
+            ]
+          },
+          {
+            "level": 15,
+            "name": "Thick Hide",
+            "description": "+25% health.",
+            "modifiers": [
+              {
+                "stat": "health",
+                "op": "multiply",
+                "value": 1.25
+              }
+            ]
+          },
+          {
+            "level": 20,
+            "name": "Feeding Frenzy",
+            "description": "+25% damage.",
+            "modifiers": [
+              {
+                "stat": "damage",
+                "op": "multiply",
+                "value": 1.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "card": "sharky",
+        "rarity": "legendary",
+        "unlock": [
+          {
+            "method": "seeds",
+            "item": "tokens.sharky",
+            "amount": 25,
+            "wildItem": "tokens.wild"
+          },
+          {
+            "method": "purchase",
+            "currency": "gems",
+            "amount": 120
+          }
+        ],
+        "curve": "crew_rare",
+        "abilities": [
+          {
+            "level": 5,
+            "name": "Jaws",
+            "description": "+15% damage.",
+            "modifiers": [
+              {
+                "stat": "damage",
+                "op": "multiply",
+                "value": 1.15
+              }
+            ]
+          },
+          {
+            "level": 10,
+            "name": "Undertow",
+            "description": "Slows zombies by 25% for 1.5 s.",
+            "modifiers": [
+              {
+                "stat": "slowFraction",
+                "op": "add",
+                "value": 0.25
+              },
+              {
+                "stat": "slowDuration",
+                "op": "add",
+                "value": 1.5
+              }
+            ]
+          },
+          {
+            "level": 15,
+            "name": "Apex",
+            "description": "+30% health.",
+            "modifiers": [
+              {
+                "stat": "health",
+                "op": "multiply",
+                "value": 1.3
+              }
+            ]
+          },
+          {
+            "level": 20,
+            "name": "Megalodon",
+            "description": "Bites every zombie around.",
+            "modifiers": [
+              {
+                "stat": "splashRadius",
+                "op": "add",
+                "value": 0.4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "curves": [
+      {
+        "id": "crew",
+        "levels": [
+          {
+            "level": 2,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 50
+              },
+              {
+                "id": "crew_xp",
+                "amount": 25
+              }
+            ],
+            "health": 1.2,
+            "damage": 1.2,
+            "ability": ""
+          },
+          {
+            "level": 3,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 100
+              },
+              {
+                "id": "crew_xp",
+                "amount": 75
+              }
+            ],
+            "health": 1.4,
+            "damage": 1.4,
+            "ability": ""
+          },
+          {
+            "level": 4,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 125
+              },
+              {
+                "id": "crew_xp",
+                "amount": 100
+              }
+            ],
+            "health": 1.6,
+            "damage": 1.6,
+            "ability": ""
+          },
+          {
+            "level": 5,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 175
+              },
+              {
+                "id": "crew_xp",
+                "amount": 150
+              },
+              {
+                "id": "moon_shard",
+                "amount": 50
+              }
+            ],
+            "health": 1.8,
+            "damage": 1.8,
+            "ability": "New skill"
+          },
+          {
+            "level": 6,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 225
+              },
+              {
+                "id": "crew_xp",
+                "amount": 175
+              }
+            ],
+            "health": 2.0,
+            "damage": 2.0,
+            "ability": ""
+          },
+          {
+            "level": 7,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 300
+              },
+              {
+                "id": "crew_xp",
+                "amount": 225
+              }
+            ],
+            "health": 2.2,
+            "damage": 2.2,
+            "ability": ""
+          },
+          {
+            "level": 8,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 350
+              },
+              {
+                "id": "crew_xp",
+                "amount": 275
+              }
+            ],
+            "health": 2.4,
+            "damage": 2.4,
+            "ability": ""
+          },
+          {
+            "level": 9,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 400
+              },
+              {
+                "id": "crew_xp",
+                "amount": 300
+              }
+            ],
+            "health": 2.6,
+            "damage": 2.6,
+            "ability": ""
+          },
+          {
+            "level": 10,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 450
+              },
+              {
+                "id": "crew_xp",
+                "amount": 350
+              },
+              {
+                "id": "moon_shard",
+                "amount": 120
+              }
+            ],
+            "health": 3.04,
+            "damage": 3.04,
+            "ability": "Power surge: +44% stats"
+          },
+          {
+            "level": 11,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 700
+              },
+              {
+                "id": "crew_xp",
+                "amount": 600
+              }
+            ],
+            "health": 3.24,
+            "damage": 3.24,
+            "ability": ""
+          },
+          {
+            "level": 12,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 1000
+              },
+              {
+                "id": "crew_xp",
+                "amount": 800
+              }
+            ],
+            "health": 3.44,
+            "damage": 3.44,
+            "ability": ""
+          },
+          {
+            "level": 13,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 1300
+              },
+              {
+                "id": "crew_xp",
+                "amount": 1000
+              }
+            ],
+            "health": 3.64,
+            "damage": 3.64,
+            "ability": ""
+          },
+          {
+            "level": 14,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 1600
+              },
+              {
+                "id": "crew_xp",
+                "amount": 1200
+              }
+            ],
+            "health": 3.84,
+            "damage": 3.84,
+            "ability": ""
+          },
+          {
+            "level": 15,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 1800
+              },
+              {
+                "id": "crew_xp",
+                "amount": 1400
+              },
+              {
+                "id": "moon_rock",
+                "amount": 80
+              }
+            ],
+            "health": 4.04,
+            "damage": 4.04,
+            "ability": "Skill upgrade"
+          },
+          {
+            "level": 16,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 2250
+              },
+              {
+                "id": "crew_xp",
+                "amount": 1750
+              }
+            ],
+            "health": 4.24,
+            "damage": 4.24,
+            "ability": ""
+          },
+          {
+            "level": 17,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 2750
+              },
+              {
+                "id": "crew_xp",
+                "amount": 2000
+              }
+            ],
+            "health": 4.44,
+            "damage": 4.44,
+            "ability": ""
+          },
+          {
+            "level": 18,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 3250
+              },
+              {
+                "id": "crew_xp",
+                "amount": 2500
+              }
+            ],
+            "health": 4.64,
+            "damage": 4.64,
+            "ability": ""
+          },
+          {
+            "level": 19,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 3750
+              },
+              {
+                "id": "crew_xp",
+                "amount": 2750
+              }
+            ],
+            "health": 4.84,
+            "damage": 4.84,
+            "ability": ""
+          },
+          {
+            "level": 20,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 4000
+              },
+              {
+                "id": "crew_xp",
+                "amount": 3250
+              },
+              {
+                "id": "moon_rock",
+                "amount": 170
+              }
+            ],
+            "health": 5.28,
+            "damage": 5.28,
+            "ability": "Mastery: +44% stats"
+          }
+        ]
+      },
+      {
+        "id": "crew_rare",
+        "levels": [
+          {
+            "level": 2,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 100
+              },
+              {
+                "id": "crew_xp",
+                "amount": 50
+              }
+            ],
+            "health": 1.2,
+            "damage": 1.2,
+            "ability": ""
+          },
+          {
+            "level": 3,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 200
+              },
+              {
+                "id": "crew_xp",
+                "amount": 150
+              }
+            ],
+            "health": 1.4,
+            "damage": 1.4,
+            "ability": ""
+          },
+          {
+            "level": 4,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 250
+              },
+              {
+                "id": "crew_xp",
+                "amount": 200
+              }
+            ],
+            "health": 1.6,
+            "damage": 1.6,
+            "ability": ""
+          },
+          {
+            "level": 5,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 350
+              },
+              {
+                "id": "crew_xp",
+                "amount": 300
+              },
+              {
+                "id": "moon_shard",
+                "amount": 100
+              }
+            ],
+            "health": 1.8,
+            "damage": 1.8,
+            "ability": "New skill"
+          },
+          {
+            "level": 6,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 450
+              },
+              {
+                "id": "crew_xp",
+                "amount": 350
+              }
+            ],
+            "health": 2.0,
+            "damage": 2.0,
+            "ability": ""
+          },
+          {
+            "level": 7,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 600
+              },
+              {
+                "id": "crew_xp",
+                "amount": 450
+              }
+            ],
+            "health": 2.2,
+            "damage": 2.2,
+            "ability": ""
+          },
+          {
+            "level": 8,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 700
+              },
+              {
+                "id": "crew_xp",
+                "amount": 550
+              }
+            ],
+            "health": 2.4,
+            "damage": 2.4,
+            "ability": ""
+          },
+          {
+            "level": 9,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 800
+              },
+              {
+                "id": "crew_xp",
+                "amount": 600
+              }
+            ],
+            "health": 2.6,
+            "damage": 2.6,
+            "ability": ""
+          },
+          {
+            "level": 10,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 900
+              },
+              {
+                "id": "crew_xp",
+                "amount": 700
+              },
+              {
+                "id": "moon_shard",
+                "amount": 240
+              }
+            ],
+            "health": 3.04,
+            "damage": 3.04,
+            "ability": "Power surge: +44% stats"
+          },
+          {
+            "level": 11,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 1400
+              },
+              {
+                "id": "crew_xp",
+                "amount": 1200
+              }
+            ],
+            "health": 3.24,
+            "damage": 3.24,
+            "ability": ""
+          },
+          {
+            "level": 12,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 2000
+              },
+              {
+                "id": "crew_xp",
+                "amount": 1600
+              }
+            ],
+            "health": 3.44,
+            "damage": 3.44,
+            "ability": ""
+          },
+          {
+            "level": 13,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 2600
+              },
+              {
+                "id": "crew_xp",
+                "amount": 2000
+              }
+            ],
+            "health": 3.64,
+            "damage": 3.64,
+            "ability": ""
+          },
+          {
+            "level": 14,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 3200
+              },
+              {
+                "id": "crew_xp",
+                "amount": 2400
+              }
+            ],
+            "health": 3.84,
+            "damage": 3.84,
+            "ability": ""
+          },
+          {
+            "level": 15,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 3600
+              },
+              {
+                "id": "crew_xp",
+                "amount": 2800
+              },
+              {
+                "id": "moon_rock",
+                "amount": 160
+              }
+            ],
+            "health": 4.04,
+            "damage": 4.04,
+            "ability": "Skill upgrade"
+          },
+          {
+            "level": 16,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 4500
+              },
+              {
+                "id": "crew_xp",
+                "amount": 3500
+              }
+            ],
+            "health": 4.24,
+            "damage": 4.24,
+            "ability": ""
+          },
+          {
+            "level": 17,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 5500
+              },
+              {
+                "id": "crew_xp",
+                "amount": 4000
+              }
+            ],
+            "health": 4.44,
+            "damage": 4.44,
+            "ability": ""
+          },
+          {
+            "level": 18,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 6500
+              },
+              {
+                "id": "crew_xp",
+                "amount": 5000
+              }
+            ],
+            "health": 4.64,
+            "damage": 4.64,
+            "ability": ""
+          },
+          {
+            "level": 19,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 7500
+              },
+              {
+                "id": "crew_xp",
+                "amount": 5500
+              }
+            ],
+            "health": 4.84,
+            "damage": 4.84,
+            "ability": ""
+          },
+          {
+            "level": 20,
+            "cost": [
+              {
+                "id": "coins",
+                "amount": 8000
+              },
+              {
+                "id": "crew_xp",
+                "amount": 6500
+              },
+              {
+                "id": "moon_rock",
+                "amount": 340
+              }
+            ],
+            "health": 5.28,
+            "damage": 5.28,
+            "ability": "Mastery: +44% stats"
+          }
+        ]
+      },
+      {
+        "id": "tokens_coins.shaun",
+        "levels": [
+          {
+            "level": 2,
+            "cost": [
+              {
+                "id": "tokens.shaun",
+                "amount": 5
+              },
+              {
+                "id": "coins",
+                "amount": 200
+              }
+            ],
+            "health": 1.2,
+            "damage": 1.2,
+            "ability": ""
+          },
+          {
+            "level": 3,
+            "cost": [
+              {
+                "id": "tokens.shaun",
+                "amount": 8
+              },
+              {
+                "id": "coins",
+                "amount": 300
+              }
+            ],
+            "health": 1.4,
+            "damage": 1.4,
+            "ability": ""
+          },
+          {
+            "level": 4,
+            "cost": [
+              {
+                "id": "tokens.shaun",
+                "amount": 13
+              },
+              {
+                "id": "coins",
+                "amount": 450
+              }
+            ],
+            "health": 1.6,
+            "damage": 1.6,
+            "ability": ""
+          },
+          {
+            "level": 5,
+            "cost": [
+              {
+                "id": "tokens.shaun",
+                "amount": 20
+              },
+              {
+                "id": "coins",
+                "amount": 675
+              }
+            ],
+            "health": 1.8,
+            "damage": 1.8,
+            "ability": ""
+          },
+          {
+            "level": 6,
+            "cost": [
+              {
+                "id": "tokens.shaun",
+                "amount": 33
+              },
+              {
+                "id": "coins",
+                "amount": 1010
+              }
+            ],
+            "health": 2.0,
+            "damage": 2.0,
+            "ability": ""
+          },
+          {
+            "level": 7,
+            "cost": [
+              {
+                "id": "tokens.shaun",
+                "amount": 52
+              },
+              {
+                "id": "coins",
+                "amount": 1520
+              }
+            ],
+            "health": 2.2,
+            "damage": 2.2,
+            "ability": ""
+          },
+          {
+            "level": 8,
+            "cost": [
+              {
+                "id": "tokens.shaun",
+                "amount": 84
+              },
+              {
+                "id": "coins",
+                "amount": 2280
+              }
+            ],
+            "health": 2.4,
+            "damage": 2.4,
+            "ability": ""
+          },
+          {
+            "level": 9,
+            "cost": [
+              {
+                "id": "tokens.shaun",
+                "amount": 134
+              },
+              {
+                "id": "coins",
+                "amount": 3415
+              }
+            ],
+            "health": 2.6,
+            "damage": 2.6,
+            "ability": ""
+          },
+          {
+            "level": 10,
+            "cost": [
+              {
+                "id": "tokens.shaun",
+                "amount": 215
+              },
+              {
+                "id": "coins",
+                "amount": 5125
+              }
+            ],
+            "health": 2.8,
+            "damage": 2.8,
+            "ability": ""
+          }
+        ]
+      }
+    ]
+  },
+  "shop": {
+    "offers": [
+      {
+        "id": "crew_xp",
+        "name": "Crew XP",
+        "price": {
+          "currency": "coins",
+          "amount": 150
+        },
+        "grants": {
+          "currencies": {},
+          "items": {
+            "crew_xp": 100
+          }
+        },
+        "dailyLimit": 5,
+        "requiredLevel": 0,
+        "tag": ""
+      },
+      {
+        "id": "tokens_anne",
+        "name": "Anne Tokens",
+        "price": {
+          "currency": "coins",
+          "amount": 300
+        },
+        "grants": {
+          "currencies": {},
+          "items": {
+            "tokens.anne": 5
+          }
+        },
+        "dailyLimit": 3,
+        "requiredLevel": 0,
+        "tag": ""
+      },
+      {
+        "id": "tokens_shaun",
+        "name": "Shaun Tokens",
+        "price": {
+          "currency": "coins",
+          "amount": 400
+        },
+        "grants": {
+          "currencies": {},
+          "items": {
+            "tokens.shaun": 5
+          }
+        },
+        "dailyLimit": 3,
+        "requiredLevel": 0,
+        "tag": ""
+      },
+      {
+        "id": "moon_shards",
+        "name": "Moon Shards",
+        "price": {
+          "currency": "gems",
+          "amount": 25
+        },
+        "grants": {
+          "currencies": {},
+          "items": {
+            "moon_shard": 20
+          }
+        },
+        "dailyLimit": 3,
+        "requiredLevel": 0,
+        "tag": ""
+      },
+      {
+        "id": "tokens_wild",
+        "name": "Wild Tokens",
+        "price": {
+          "currency": "gems",
+          "amount": 20
+        },
+        "grants": {
+          "currencies": {},
+          "items": {
+            "tokens.wild": 3
+          }
+        },
+        "dailyLimit": 2,
+        "requiredLevel": 0,
+        "tag": "HOT"
+      },
+      {
+        "id": "tokens_sharky",
+        "name": "Sharky Tokens",
+        "price": {
+          "currency": "gems",
+          "amount": 30
+        },
+        "grants": {
+          "currencies": {},
+          "items": {
+            "tokens.sharky": 5
+          }
+        },
+        "dailyLimit": 2,
+        "requiredLevel": 2,
+        "tag": ""
+      },
+      {
+        "id": "moon_rocks",
+        "name": "Moon Rocks",
+        "price": {
+          "currency": "gems",
+          "amount": 60
+        },
+        "grants": {
+          "currencies": {},
+          "items": {
+            "moon_rock": 10
+          }
+        },
+        "dailyLimit": 2,
+        "requiredLevel": 3,
+        "tag": ""
+      },
+      {
+        "id": "coin_pouch",
+        "name": "Coin Pouch",
+        "price": {
+          "currency": "gems",
+          "amount": 50
+        },
+        "grants": {
+          "currencies": {
+            "coins": 1000
+          },
+          "items": {}
+        },
+        "dailyLimit": 0,
+        "requiredLevel": 0,
+        "tag": "BEST VALUE"
+      },
+      {
+        "id": "crew_xp_crate",
+        "name": "Crew XP Crate",
+        "price": {
+          "currency": "gems",
+          "amount": 60
+        },
+        "grants": {
+          "currencies": {},
+          "items": {
+            "crew_xp": 1000
+          }
+        },
+        "dailyLimit": 1,
+        "requiredLevel": 0,
+        "tag": ""
+      }
+    ],
+    "products": [
+      {
+        "id": "starter_pack",
+        "name": "Starter Pack",
+        "kind": "consumable",
+        "storeIds": {},
+        "grants": {
+          "currencies": {
+            "gems": 300,
+            "coins": 3000
+          },
+          "items": {
+            "tokens.wild": 10,
+            "crew_xp": 500
+          },
+          "exp": 0
+        },
+        "firstPurchaseBonus": {
+          "currencies": {},
+          "items": {},
+          "exp": 0
+        },
+        "limit": 1,
+        "requiredLevel": 0,
+        "tag": "ONE TIME",
+        "referencePrice": "$2.99"
+      },
+      {
+        "id": "gems_small",
+        "name": "Handful of Gems",
+        "kind": "consumable",
+        "storeIds": {},
+        "grants": {
+          "currencies": {
+            "gems": 80
+          },
+          "items": {},
+          "exp": 0
+        },
+        "firstPurchaseBonus": {
+          "currencies": {
+            "gems": 80
+          },
+          "items": {},
+          "exp": 0
+        },
+        "limit": 0,
+        "requiredLevel": 0,
+        "tag": "",
+        "referencePrice": "$0.99"
+      },
+      {
+        "id": "gems_medium",
+        "name": "Bag of Gems",
+        "kind": "consumable",
+        "storeIds": {},
+        "grants": {
+          "currencies": {
+            "gems": 500
+          },
+          "items": {},
+          "exp": 0
+        },
+        "firstPurchaseBonus": {
+          "currencies": {
+            "gems": 500
+          },
+          "items": {},
+          "exp": 0
+        },
+        "limit": 0,
+        "requiredLevel": 0,
+        "tag": "POPULAR",
+        "referencePrice": "$4.99"
+      },
+      {
+        "id": "gems_large",
+        "name": "Chest of Gems",
+        "kind": "consumable",
+        "storeIds": {},
+        "grants": {
+          "currencies": {
+            "gems": 1200
+          },
+          "items": {},
+          "exp": 0
+        },
+        "firstPurchaseBonus": {
+          "currencies": {
+            "gems": 1200
+          },
+          "items": {},
+          "exp": 0
+        },
+        "limit": 0,
+        "requiredLevel": 0,
+        "tag": "BEST VALUE",
+        "referencePrice": "$9.99"
+      },
+      {
+        "id": "coins_small",
+        "name": "Pile of Coins",
+        "kind": "consumable",
+        "storeIds": {},
+        "grants": {
+          "currencies": {
+            "coins": 2000
+          },
+          "items": {},
+          "exp": 0
+        },
+        "firstPurchaseBonus": {
+          "currencies": {
+            "coins": 2000
+          },
+          "items": {},
+          "exp": 0
+        },
+        "limit": 0,
+        "requiredLevel": 0,
+        "tag": "",
+        "referencePrice": "$0.99"
+      },
+      {
+        "id": "coins_medium",
+        "name": "Sack of Coins",
+        "kind": "consumable",
+        "storeIds": {},
+        "grants": {
+          "currencies": {
+            "coins": 12000
+          },
+          "items": {},
+          "exp": 0
+        },
+        "firstPurchaseBonus": {
+          "currencies": {
+            "coins": 12000
+          },
+          "items": {},
+          "exp": 0
+        },
+        "limit": 0,
+        "requiredLevel": 0,
+        "tag": "POPULAR",
+        "referencePrice": "$4.99"
+      },
+      {
+        "id": "coins_large",
+        "name": "Vault of Coins",
+        "kind": "consumable",
+        "storeIds": {},
+        "grants": {
+          "currencies": {
+            "coins": 30000
+          },
+          "items": {},
+          "exp": 0
+        },
+        "firstPurchaseBonus": {
+          "currencies": {
+            "coins": 30000
+          },
+          "items": {},
+          "exp": 0
+        },
+        "limit": 0,
+        "requiredLevel": 0,
+        "tag": "BEST VALUE",
+        "referencePrice": "$9.99"
+      }
+    ]
+  },
+  "progression": {
+    "objectives": [
+      {
+        "id": "d_win3",
+        "kind": "daily",
+        "title": {
+          "en": "Win 3 battles",
+          "pt": "Vença 3 batalhas",
+          "es": "Gana 3 batallas",
+          "zh": "赢得3场战斗",
+          "ja": "バトルに3回勝利",
+          "ko": "전투 3회 승리"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "battles_won",
+        "target": 3,
+        "reward": {
+          "currencies": {
+            "coins": 150
+          },
+          "items": {
+            "crew_xp": 30
+          },
+          "exp": 0
+        },
+        "event": "",
+        "group": "",
+        "tier": 1,
+        "requiredLevel": 0
+      },
+      {
+        "id": "d_stars6",
+        "kind": "daily",
+        "title": {
+          "en": "Earn 6 stars",
+          "pt": "Ganhe 6 estrelas",
+          "es": "Consigue 6 estrellas",
+          "zh": "获得6颗星星",
+          "ja": "スターを6個獲得",
+          "ko": "별 6개 획득"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "stars_earned",
+        "target": 6,
+        "reward": {
+          "currencies": {
+            "coins": 100
+          },
+          "items": {},
+          "exp": 0
+        },
+        "event": "",
+        "group": "",
+        "tier": 1,
+        "requiredLevel": 0
+      },
+      {
+        "id": "d_kill40",
+        "kind": "daily",
+        "title": {
+          "en": "Defeat 40 zombies",
+          "pt": "Derrote 40 zumbis",
+          "es": "Derrota 40 zombis",
+          "zh": "击败40只僵尸",
+          "ja": "ゾンビを40体撃破",
+          "ko": "좀비 40마리 처치"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "enemies_killed",
+        "target": 40,
+        "reward": {
+          "currencies": {
+            "coins": 100
+          },
+          "items": {},
+          "exp": 0
+        },
+        "event": "",
+        "group": "",
+        "tier": 1,
+        "requiredLevel": 0
+      },
+      {
+        "id": "d_place15",
+        "kind": "daily",
+        "title": {
+          "en": "Place 15 crew members",
+          "pt": "Posicione 15 tripulantes",
+          "es": "Coloca 15 tripulantes",
+          "zh": "部署15名船员",
+          "ja": "クルーを15人配置",
+          "ko": "크루원 15명 배치"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "defenders_placed",
+        "target": 15,
+        "reward": {
+          "currencies": {},
+          "items": {
+            "crew_xp": 40
+          },
+          "exp": 0
+        },
+        "event": "",
+        "group": "",
+        "tier": 1,
+        "requiredLevel": 0
+      },
+      {
+        "id": "d_merge3",
+        "kind": "daily",
+        "title": {
+          "en": "Merge crew 3 times",
+          "pt": "Funda tripulantes 3 vezes",
+          "es": "Fusiona tripulantes 3 veces",
+          "zh": "合成船员3次",
+          "ja": "クルーを3回合成",
+          "ko": "크루 합치기 3회"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "merges",
+        "target": 3,
+        "reward": {
+          "currencies": {
+            "gems": 5
+          },
+          "items": {},
+          "exp": 0
+        },
+        "event": "",
+        "group": "",
+        "tier": 1,
+        "requiredLevel": 0
+      },
+      {
+        "id": "d_shop1",
+        "kind": "daily",
+        "title": {
+          "en": "Buy a daily deal",
+          "pt": "Compre uma oferta do dia",
+          "es": "Compra una oferta del día",
+          "zh": "购买一件每日特惠",
+          "ja": "デイリーセールを1つ購入",
+          "ko": "일일 특가 1개 구매"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "shop_purchases",
+        "target": 1,
+        "reward": {
+          "currencies": {
+            "coins": 100
+          },
+          "items": {},
+          "exp": 0
+        },
+        "event": "",
+        "group": "",
+        "tier": 1,
+        "requiredLevel": 0
+      },
+      {
+        "id": "w_win15",
+        "kind": "weekly",
+        "title": {
+          "en": "Win 15 battles",
+          "pt": "Vença 15 batalhas",
+          "es": "Gana 15 batallas",
+          "zh": "赢得15场战斗",
+          "ja": "バトルに15回勝利",
+          "ko": "전투 15회 승리"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "battles_won",
+        "target": 15,
+        "reward": {
+          "currencies": {
+            "gems": 20
+          },
+          "items": {
+            "crew_xp": 200
+          },
+          "exp": 0
+        },
+        "event": "",
+        "group": "",
+        "tier": 1,
+        "requiredLevel": 0
+      },
+      {
+        "id": "w_upgrade3",
+        "kind": "weekly",
+        "title": {
+          "en": "Upgrade your crew 3 times",
+          "pt": "Melhore sua equipe 3 vezes",
+          "es": "Mejora tu equipo 3 veces",
+          "zh": "升级船员3次",
+          "ja": "クルーを3回強化",
+          "ko": "크루 3회 강화"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "cards_upgraded",
+        "target": 3,
+        "reward": {
+          "currencies": {},
+          "items": {
+            "moon_shard": 10
+          },
+          "exp": 0
+        },
+        "event": "",
+        "group": "",
+        "tier": 1,
+        "requiredLevel": 0
+      },
+      {
+        "id": "w_kill300",
+        "kind": "weekly",
+        "title": {
+          "en": "Defeat 300 zombies",
+          "pt": "Derrote 300 zumbis",
+          "es": "Derrota 300 zombis",
+          "zh": "击败300只僵尸",
+          "ja": "ゾンビを300体撃破",
+          "ko": "좀비 300마리 처치"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "enemies_killed",
+        "target": 300,
+        "reward": {
+          "currencies": {
+            "coins": 500
+          },
+          "items": {},
+          "exp": 0
+        },
+        "event": "",
+        "group": "",
+        "tier": 1,
+        "requiredLevel": 0
+      },
+      {
+        "id": "w_login5",
+        "kind": "weekly",
+        "title": {
+          "en": "Claim 5 daily rewards",
+          "pt": "Pegue 5 recompensas diárias",
+          "es": "Reclama 5 recompensas diarias",
+          "zh": "领取5次每日奖励",
+          "ja": "デイリーリワードを5回受け取る",
+          "ko": "일일 보상 5회 받기"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "daily_rewards_claimed",
+        "target": 5,
+        "reward": {
+          "currencies": {},
+          "items": {
+            "tokens.wild": 5
+          },
+          "exp": 0
+        },
+        "event": "",
+        "group": "",
+        "tier": 1,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_wins_1",
+        "kind": "achievement",
+        "title": {
+          "en": "First Victory",
+          "pt": "Primeira Vitória",
+          "es": "Primera Victoria",
+          "zh": "首场胜利",
+          "ja": "初勝利",
+          "ko": "첫 승리"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "battles_won",
+        "target": 1,
+        "reward": {
+          "currencies": {
+            "coins": 100
+          },
+          "items": {},
+          "exp": 0
+        },
+        "event": "",
+        "group": "wins",
+        "tier": 1,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_wins_2",
+        "kind": "achievement",
+        "title": {
+          "en": "Seasoned Captain: win 10 battles",
+          "pt": "Capitão Experiente: vença 10 batalhas",
+          "es": "Capitán Curtido: gana 10 batallas",
+          "zh": "资深船长：赢得10场战斗",
+          "ja": "ベテラン船長：バトルに10回勝利",
+          "ko": "베테랑 선장: 전투 10회 승리"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "battles_won",
+        "target": 10,
+        "reward": {
+          "currencies": {
+            "gems": 10
+          },
+          "items": {},
+          "exp": 0
+        },
+        "event": "",
+        "group": "wins",
+        "tier": 2,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_wins_3",
+        "kind": "achievement",
+        "title": {
+          "en": "Sea Legend: win 50 battles",
+          "pt": "Lenda dos Mares: vença 50 batalhas",
+          "es": "Leyenda del Mar: gana 50 batallas",
+          "zh": "海上传奇：赢得50场战斗",
+          "ja": "海の伝説：バトルに50回勝利",
+          "ko": "바다의 전설: 전투 50회 승리"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "battles_won",
+        "target": 50,
+        "reward": {
+          "currencies": {
+            "gems": 30
+          },
+          "items": {},
+          "exp": 0
+        },
+        "event": "",
+        "group": "wins",
+        "tier": 3,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_wins_4",
+        "kind": "achievement",
+        "title": {
+          "en": "Admiral: win 100 battles",
+          "pt": "Almirante: vença 100 batalhas",
+          "es": "Almirante: gana 100 batallas",
+          "zh": "海军上将：赢得100场战斗",
+          "ja": "提督：バトルに100回勝利",
+          "ko": "제독: 전투 100회 승리"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "battles_won",
+        "target": 100,
+        "reward": {
+          "currencies": {
+            "gems": 80
+          },
+          "items": {},
+          "exp": 0
+        },
+        "event": "",
+        "group": "wins",
+        "tier": 4,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_stars_1",
+        "kind": "achievement",
+        "title": {
+          "en": "Star Collector: earn 6 stars",
+          "pt": "Colecionador: ganhe 6 estrelas",
+          "es": "Coleccionista: consigue 6 estrellas",
+          "zh": "集星达人：获得6颗星星",
+          "ja": "スターコレクター：スターを6個獲得",
+          "ko": "별 수집가: 별 6개 획득"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "stars_earned",
+        "target": 6,
+        "reward": {
+          "currencies": {},
+          "items": {
+            "crew_xp": 20
+          },
+          "exp": 0
+        },
+        "event": "",
+        "group": "stars",
+        "tier": 1,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_stars_2",
+        "kind": "achievement",
+        "title": {
+          "en": "Star Hoarder: earn 30 stars",
+          "pt": "Acumulador: ganhe 30 estrelas",
+          "es": "Acaparador: consigue 30 estrellas",
+          "zh": "囤星大户：获得30颗星星",
+          "ja": "スターの収集家：スターを30個獲得",
+          "ko": "별 사냥꾼: 별 30개 획득"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "stars_earned",
+        "target": 30,
+        "reward": {
+          "currencies": {},
+          "items": {
+            "crew_xp": 100
+          },
+          "exp": 0
+        },
+        "event": "",
+        "group": "stars",
+        "tier": 2,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_stars_3",
+        "kind": "achievement",
+        "title": {
+          "en": "Constellation: earn 90 stars",
+          "pt": "Constelação: ganhe 90 estrelas",
+          "es": "Constelación: consigue 90 estrellas",
+          "zh": "璀璨星座：获得90颗星星",
+          "ja": "星座：スターを90個獲得",
+          "ko": "별자리: 별 90개 획득"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "stars_earned",
+        "target": 90,
+        "reward": {
+          "currencies": {},
+          "items": {
+            "moon_shard": 20
+          },
+          "exp": 0
+        },
+        "event": "",
+        "group": "stars",
+        "tier": 3,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_clear_1",
+        "kind": "achievement",
+        "title": {
+          "en": "Explorer: clear a stage",
+          "pt": "Explorador: vença uma fase",
+          "es": "Explorador: supera una fase",
+          "zh": "探险家：通关1个关卡",
+          "ja": "探検家：ステージを1つクリア",
+          "ko": "탐험가: 스테이지 1개 클리어"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "stages_cleared",
+        "target": 1,
+        "reward": {
+          "currencies": {
+            "gems": 5
+          },
+          "items": {},
+          "exp": 0
+        },
+        "event": "",
+        "group": "clear",
+        "tier": 1,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_clear_2",
+        "kind": "achievement",
+        "title": {
+          "en": "Cartographer: clear 2 stages",
+          "pt": "Cartógrafo: vença 2 fases",
+          "es": "Cartógrafo: supera 2 fases",
+          "zh": "制图师：通关2个关卡",
+          "ja": "地図製作者：ステージを2つクリア",
+          "ko": "지도 제작자: 스테이지 2개 클리어"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "stages_cleared",
+        "target": 2,
+        "reward": {
+          "currencies": {
+            "gems": 15
+          },
+          "items": {},
+          "exp": 0
+        },
+        "event": "",
+        "group": "clear",
+        "tier": 2,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_slayer_1",
+        "kind": "achievement",
+        "title": {
+          "en": "Zombie Slayer: defeat 100 zombies",
+          "pt": "Caça-Zumbis: derrote 100 zumbis",
+          "es": "Cazazombis: derrota 100 zombis",
+          "zh": "僵尸杀手：击败100只僵尸",
+          "ja": "ゾンビスレイヤー：ゾンビを100体撃破",
+          "ko": "좀비 사냥꾼: 좀비 100마리 처치"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "enemies_killed",
+        "target": 100,
+        "reward": {
+          "currencies": {
+            "coins": 200
+          },
+          "items": {},
+          "exp": 0
+        },
+        "event": "",
+        "group": "slayer",
+        "tier": 1,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_slayer_2",
+        "kind": "achievement",
+        "title": {
+          "en": "Undead Bane: defeat 1,000 zombies",
+          "pt": "Flagelo dos Mortos: derrote 1.000 zumbis",
+          "es": "Azote No Muerto: derrota 1.000 zombis",
+          "zh": "亡灵克星：击败1,000只僵尸",
+          "ja": "アンデッドの天敵：ゾンビを1,000体撃破",
+          "ko": "언데드의 재앙: 좀비 1,000마리 처치"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "enemies_killed",
+        "target": 1000,
+        "reward": {
+          "currencies": {
+            "coins": 1000
+          },
+          "items": {},
+          "exp": 0
+        },
+        "event": "",
+        "group": "slayer",
+        "tier": 2,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_slayer_3",
+        "kind": "achievement",
+        "title": {
+          "en": "Apocalypse Ender: defeat 5,000 zombies",
+          "pt": "Fim do Apocalipse: derrote 5.000 zumbis",
+          "es": "Fin del Apocalipsis: derrota 5.000 zombis",
+          "zh": "末日终结者：击败5,000只僵尸",
+          "ja": "終末の終結者：ゾンビを5,000体撃破",
+          "ko": "종말의 종결자: 좀비 5,000마리 처치"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "enemies_killed",
+        "target": 5000,
+        "reward": {
+          "currencies": {},
+          "items": {
+            "moon_rock": 5
+          },
+          "exp": 0
+        },
+        "event": "",
+        "group": "slayer",
+        "tier": 3,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_recruiter_1",
+        "kind": "achievement",
+        "title": {
+          "en": "Recruiter: recruit a crew member",
+          "pt": "Recrutador: recrute um tripulante",
+          "es": "Reclutador: recluta un tripulante",
+          "zh": "招募官：招募1名船员",
+          "ja": "スカウトマン：クルーを1人加入させる",
+          "ko": "모집관: 크루원 1명 영입"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "cards_unlocked",
+        "target": 1,
+        "reward": {
+          "currencies": {},
+          "items": {
+            "tokens.wild": 3
+          },
+          "exp": 0
+        },
+        "event": "",
+        "group": "recruiter",
+        "tier": 1,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_recruiter_2",
+        "kind": "achievement",
+        "title": {
+          "en": "Full Deck: recruit 3 crew members",
+          "pt": "Convés Cheio: recrute 3 tripulantes",
+          "es": "Cubierta Llena: recluta 3 tripulantes",
+          "zh": "满编阵容：招募3名船员",
+          "ja": "フルデッキ：クルーを3人加入させる",
+          "ko": "풀 덱: 크루원 3명 영입"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "cards_unlocked",
+        "target": 3,
+        "reward": {
+          "currencies": {
+            "gems": 10
+          },
+          "items": {},
+          "exp": 0
+        },
+        "event": "",
+        "group": "recruiter",
+        "tier": 2,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_recruiter_3",
+        "kind": "achievement",
+        "title": {
+          "en": "Legendary Crew: recruit 6 crew members",
+          "pt": "Tripulação Lendária: recrute 6",
+          "es": "Tripulación Legendaria: recluta 6",
+          "zh": "传奇船员：招募6名船员",
+          "ja": "伝説のクルー：クルーを6人加入させる",
+          "ko": "전설의 크루: 크루원 6명 영입"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "cards_unlocked",
+        "target": 6,
+        "reward": {
+          "currencies": {
+            "gems": 30
+          },
+          "items": {},
+          "exp": 0
+        },
+        "event": "",
+        "group": "recruiter",
+        "tier": 3,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_trainer_1",
+        "kind": "achievement",
+        "title": {
+          "en": "Trainer: upgrade your crew 5 times",
+          "pt": "Treinador: melhore a equipe 5 vezes",
+          "es": "Entrenador: mejora el equipo 5 veces",
+          "zh": "训练师：升级船员5次",
+          "ja": "トレーナー：クルーを5回強化",
+          "ko": "교관: 크루 5회 강화"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "cards_upgraded",
+        "target": 5,
+        "reward": {
+          "currencies": {},
+          "items": {
+            "crew_xp": 50
+          },
+          "exp": 0
+        },
+        "event": "",
+        "group": "trainer",
+        "tier": 1,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_trainer_2",
+        "kind": "achievement",
+        "title": {
+          "en": "Drill Master: 25 upgrades",
+          "pt": "Instrutor: 25 melhorias",
+          "es": "Instructor: 25 mejoras",
+          "zh": "训练大师：升级25次",
+          "ja": "訓練教官：強化を25回",
+          "ko": "훈련 교관: 강화 25회"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "cards_upgraded",
+        "target": 25,
+        "reward": {
+          "currencies": {},
+          "items": {
+            "moon_shard": 20
+          },
+          "exp": 0
+        },
+        "event": "",
+        "group": "trainer",
+        "tier": 2,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_trainer_3",
+        "kind": "achievement",
+        "title": {
+          "en": "Grand Master: 100 upgrades",
+          "pt": "Grão-Mestre: 100 melhorias",
+          "es": "Gran Maestro: 100 mejoras",
+          "zh": "宗师：升级100次",
+          "ja": "グランドマスター：強化を100回",
+          "ko": "그랜드 마스터: 강화 100회"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "cards_upgraded",
+        "target": 100,
+        "reward": {
+          "currencies": {},
+          "items": {
+            "moon_rock": 10
+          },
+          "exp": 0
+        },
+        "event": "",
+        "group": "trainer",
+        "tier": 3,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_merger_1",
+        "kind": "achievement",
+        "title": {
+          "en": "Fusion: merge crew 10 times",
+          "pt": "Fusão: funda tripulantes 10 vezes",
+          "es": "Fusión: fusiona 10 veces",
+          "zh": "融合：合成船员10次",
+          "ja": "融合：クルーを10回合成",
+          "ko": "융합: 크루 10회 합치기"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "merges",
+        "target": 10,
+        "reward": {
+          "currencies": {
+            "gems": 10
+          },
+          "items": {},
+          "exp": 0
+        },
+        "event": "",
+        "group": "merger",
+        "tier": 1,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_merger_2",
+        "kind": "achievement",
+        "title": {
+          "en": "Fusion Master: merge 100 times",
+          "pt": "Mestre da Fusão: funda 100 vezes",
+          "es": "Maestro de Fusión: fusiona 100 veces",
+          "zh": "融合大师：合成100次",
+          "ja": "融合マスター：100回合成",
+          "ko": "융합 마스터: 100회 합치기"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "merges",
+        "target": 100,
+        "reward": {
+          "currencies": {
+            "gems": 50
+          },
+          "items": {},
+          "exp": 0
+        },
+        "event": "",
+        "group": "merger",
+        "tier": 2,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_shopper_1",
+        "kind": "achievement",
+        "title": {
+          "en": "Customer: buy a deal",
+          "pt": "Cliente: compre uma oferta",
+          "es": "Cliente: compra una oferta",
+          "zh": "顾客：购买1件特惠",
+          "ja": "お客様：オファーを1つ購入",
+          "ko": "고객: 특가 1회 구매"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "shop_purchases",
+        "target": 1,
+        "reward": {
+          "currencies": {
+            "coins": 100
+          },
+          "items": {},
+          "exp": 0
+        },
+        "event": "",
+        "group": "shopper",
+        "tier": 1,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_shopper_2",
+        "kind": "achievement",
+        "title": {
+          "en": "Regular: buy 10 deals",
+          "pt": "Freguês: compre 10 ofertas",
+          "es": "Habitual: compra 10 ofertas",
+          "zh": "常客：购买10件特惠",
+          "ja": "常連：オファーを10個購入",
+          "ko": "단골: 특가 10회 구매"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "shop_purchases",
+        "target": 10,
+        "reward": {
+          "currencies": {
+            "gems": 10
+          },
+          "items": {},
+          "exp": 0
+        },
+        "event": "",
+        "group": "shopper",
+        "tier": 2,
+        "requiredLevel": 0
+      },
+      {
+        "id": "a_shopper_3",
+        "kind": "achievement",
+        "title": {
+          "en": "VIP: buy 50 deals",
+          "pt": "VIP: compre 50 ofertas",
+          "es": "VIP: compra 50 ofertas",
+          "zh": "贵宾：购买50件特惠",
+          "ja": "VIP：オファーを50個購入",
+          "ko": "VIP: 특가 50회 구매"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "shop_purchases",
+        "target": 50,
+        "reward": {
+          "currencies": {
+            "gems": 50
+          },
+          "items": {},
+          "exp": 0
+        },
+        "event": "",
+        "group": "shopper",
+        "tier": 3,
+        "requiredLevel": 0
+      },
+      {
+        "id": "e_halloween_kill",
+        "kind": "event",
+        "title": {
+          "en": "Defeat 200 zombies",
+          "pt": "Derrote 200 zumbis",
+          "es": "Derrota 200 zombis",
+          "zh": "击败200只僵尸",
+          "ja": "ゾンビを200体撃破",
+          "ko": "좀비 200마리 처치"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "enemies_killed",
+        "target": 200,
+        "reward": {
+          "currencies": {},
+          "items": {
+            "tokens.wild": 5
+          },
+          "exp": 0
+        },
+        "event": "halloween_havoc",
+        "group": "",
+        "tier": 1,
+        "requiredLevel": 0
+      },
+      {
+        "id": "e_halloween_win",
+        "kind": "event",
+        "title": {
+          "en": "Win 10 battles",
+          "pt": "Vença 10 batalhas",
+          "es": "Gana 10 batallas",
+          "zh": "赢得10场战斗",
+          "ja": "バトルに10回勝利",
+          "ko": "전투 10회 승리"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "battles_won",
+        "target": 10,
+        "reward": {
+          "currencies": {
+            "gems": 30
+          },
+          "items": {},
+          "exp": 0
+        },
+        "event": "halloween_havoc",
+        "group": "",
+        "tier": 1,
+        "requiredLevel": 0
+      },
+      {
+        "id": "e_halloween_stars",
+        "kind": "event",
+        "title": {
+          "en": "Earn 20 stars",
+          "pt": "Ganhe 20 estrelas",
+          "es": "Consigue 20 estrellas",
+          "zh": "获得20颗星星",
+          "ja": "スターを20個獲得",
+          "ko": "별 20개 획득"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "stars_earned",
+        "target": 20,
+        "reward": {
+          "currencies": {
+            "coins": 300
+          },
+          "items": {
+            "moon_shard": 10
+          },
+          "exp": 0
+        },
+        "event": "halloween_havoc",
+        "group": "",
+        "tier": 1,
+        "requiredLevel": 0
+      },
+      {
+        "id": "e_halloween_merge",
+        "kind": "event",
+        "title": {
+          "en": "Merge crew 15 times",
+          "pt": "Funda tripulantes 15 vezes",
+          "es": "Fusiona 15 veces",
+          "zh": "合成船员15次",
+          "ja": "クルーを15回合成",
+          "ko": "크루 15회 합치기"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "merges",
+        "target": 15,
+        "reward": {
+          "currencies": {},
+          "items": {
+            "tokens.anne": 5
+          },
+          "exp": 0
+        },
+        "event": "halloween_havoc",
+        "group": "",
+        "tier": 1,
+        "requiredLevel": 0
+      },
+      {
+        "id": "e_winter_win",
+        "kind": "event",
+        "title": {
+          "en": "Win 20 battles",
+          "pt": "Vença 20 batalhas",
+          "es": "Gana 20 batallas",
+          "zh": "赢得20场战斗",
+          "ja": "バトルに20回勝利",
+          "ko": "전투 20회 승리"
+        },
+        "description": {
+          "en": ""
+        },
+        "metric": "battles_won",
+        "target": 20,
+        "reward": {
+          "currencies": {
+            "gems": 40
+          },
+          "items": {},
+          "exp": 0
+        },
+        "event": "winter_feast",
+        "group": "",
+        "tier": 1,
+        "requiredLevel": 0
+      }
+    ],
+    "events": [
+      {
+        "id": "halloween_havoc",
+        "title": {
+          "en": "Halloween Havoc",
+          "pt": "Caos de Halloween",
+          "es": "Caos de Halloween",
+          "zh": "万圣大乱斗",
+          "ja": "ハロウィンの大騒動",
+          "ko": "할로윈 대소동"
+        },
+        "description": {
+          "en": "The graveyard is restless! Beat the horde for spooky rewards.",
+          "pt": "O cemitério está agitado! Vença a horda por prêmios assustadores.",
+          "es": "¡El cementerio está inquieto! Vence a la horda por premios terroríficos.",
+          "zh": "墓地躁动不安！击败尸潮，赢取惊悚奖励。",
+          "ja": "墓地が騒がしい！群れを倒して不気味な報酬をゲットしよう。",
+          "ko": "묘지가 술렁이고 있어요! 무리를 물리치고 으스스한 보상을 받으세요."
+        },
+        "banner": "halloween",
+        "startsAt": "2026-10-20T00:00:00Z",
+        "endsAt": "2026-11-04T00:00:00Z"
+      },
+      {
+        "id": "winter_feast",
+        "title": {
+          "en": "Winter Feast",
+          "pt": "Banquete de Inverno",
+          "es": "Banquete de Invierno",
+          "zh": "冬日盛宴",
+          "ja": "冬の祝宴",
+          "ko": "겨울 축제"
+        },
+        "description": {
+          "en": "Frosty battles, warm rewards.",
+          "pt": "Batalhas geladas, recompensas quentinhas.",
+          "es": "Batallas heladas, recompensas cálidas.",
+          "zh": "冰霜之战，温暖奖励。",
+          "ja": "凍てつくバトル、あたたかい報酬。",
+          "ko": "꽁꽁 얼어붙은 전투, 따뜻한 보상."
+        },
+        "banner": "winter",
+        "startsAt": "2026-12-15T00:00:00Z",
+        "endsAt": "2027-01-05T00:00:00Z"
+      }
+    ],
+    "dailyRewards": [
+      {
+        "currencies": {
+          "coins": 200
+        },
+        "items": {},
+        "exp": 0
+      },
+      {
+        "currencies": {},
+        "items": {
+          "crew_xp": 50
+        },
+        "exp": 0
+      },
+      {
+        "currencies": {},
+        "items": {
+          "tokens.wild": 2
+        },
+        "exp": 0
+      },
+      {
+        "currencies": {
+          "coins": 400
+        },
+        "items": {},
+        "exp": 0
+      },
+      {
+        "currencies": {
+          "gems": 10
+        },
+        "items": {},
+        "exp": 0
+      },
+      {
+        "currencies": {},
+        "items": {
+          "moon_shard": 15
+        },
+        "exp": 0
+      },
+      {
+        "currencies": {
+          "gems": 50
+        },
+        "items": {
+          "tokens.wild": 5
+        },
+        "exp": 0
+      }
+    ]
+  },
+  "wheel": {
+    "segments": [
+      {
+        "id": "coins_100",
+        "weight": 30,
+        "reward": {
+          "currencies": {
+            "coins": 100
+          },
+          "items": {},
+          "exp": 0
+        }
+      },
+      {
+        "id": "gems_5",
+        "weight": 16,
+        "reward": {
+          "currencies": {
+            "gems": 5
+          },
+          "items": {},
+          "exp": 0
+        }
+      },
+      {
+        "id": "crew_xp_100",
+        "weight": 14,
+        "reward": {
+          "currencies": {},
+          "items": {
+            "crew_xp": 100
+          },
+          "exp": 0
+        }
+      },
+      {
+        "id": "coins_1000",
+        "weight": 3,
+        "reward": {
+          "currencies": {
+            "coins": 1000
+          },
+          "items": {},
+          "exp": 0
+        }
+      },
+      {
+        "id": "coins_250",
+        "weight": 18,
+        "reward": {
+          "currencies": {
+            "coins": 250
+          },
+          "items": {},
+          "exp": 0
+        }
+      },
+      {
+        "id": "wild_token_2",
+        "weight": 8,
+        "reward": {
+          "currencies": {},
+          "items": {
+            "tokens.wild": 2
+          },
+          "exp": 0
+        }
+      },
+      {
+        "id": "gems_20",
+        "weight": 4,
+        "reward": {
+          "currencies": {
+            "gems": 20
+          },
+          "items": {},
+          "exp": 0
+        }
+      },
+      {
+        "id": "exp_50",
+        "weight": 7,
+        "reward": {
+          "currencies": {},
+          "items": {},
+          "exp": 50
+        }
+      }
+    ],
+    "freeSpinsPerDay": 1,
+    "spinCost": {
+      "currency": "gems",
+      "amount": 30
+    },
+    "dailyLimit": 5
+  },
+  "arena": {
+    "title": {
+      "en": "Pirate Arena",
+      "pt": "Arena Pirata",
+      "es": "Arena Pirata",
+      "zh": "海盗竞技场",
+      "ja": "パイレーツアリーナ",
+      "ko": "해적 아레나"
+    },
+    "encounter": "pirate_cove_arena",
+    "difficulty": "normal",
+    "scoring": {
+      "perKill": 10,
+      "perWave": 100,
+      "victoryBonus": 2000,
+      "perBaseHealth": 200
+    },
+    "tickets": {
+      "max": 5,
+      "regenMinutes": 60,
+      "price": {
+        "currency": "gems",
+        "amount": 10
+      }
+    },
+    "groupSize": 30,
+    "leagues": [
+      {
+        "id": "bronze",
+        "name": {
+          "en": "Bronze",
+          "pt": "Bronze",
+          "es": "Bronce",
+          "zh": "青铜",
+          "ja": "ブロンズ",
+          "ko": "브론즈"
+        },
+        "promote": 10,
+        "demote": 0,
+        "rewards": [
+          {
+            "toRank": 1,
+            "reward": {
+              "currencies": {
+                "gems": 30
+              },
+              "items": {},
+              "exp": 0
+            }
+          },
+          {
+            "toRank": 3,
+            "reward": {
+              "currencies": {
+                "gems": 20,
+                "coins": 500
+              },
+              "items": {},
+              "exp": 0
+            }
+          },
+          {
+            "toRank": 10,
+            "reward": {
+              "currencies": {
+                "gems": 10,
+                "coins": 300
+              },
+              "items": {},
+              "exp": 0
+            }
+          },
+          {
+            "toRank": 30,
+            "reward": {
+              "currencies": {
+                "coins": 200
+              },
+              "items": {},
+              "exp": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "silver",
+        "name": {
+          "en": "Silver",
+          "pt": "Prata",
+          "es": "Plata",
+          "zh": "白银",
+          "ja": "シルバー",
+          "ko": "실버"
+        },
+        "promote": 8,
+        "demote": 5,
+        "rewards": [
+          {
+            "toRank": 1,
+            "reward": {
+              "currencies": {
+                "gems": 50
+              },
+              "items": {},
+              "exp": 0
+            }
+          },
+          {
+            "toRank": 3,
+            "reward": {
+              "currencies": {
+                "gems": 30,
+                "coins": 800
+              },
+              "items": {},
+              "exp": 0
+            }
+          },
+          {
+            "toRank": 10,
+            "reward": {
+              "currencies": {
+                "gems": 15,
+                "coins": 500
+              },
+              "items": {},
+              "exp": 0
+            }
+          },
+          {
+            "toRank": 30,
+            "reward": {
+              "currencies": {
+                "coins": 300
+              },
+              "items": {},
+              "exp": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "gold",
+        "name": {
+          "en": "Gold",
+          "pt": "Ouro",
+          "es": "Oro",
+          "zh": "黄金",
+          "ja": "ゴールド",
+          "ko": "골드"
+        },
+        "promote": 6,
+        "demote": 5,
+        "rewards": [
+          {
+            "toRank": 1,
+            "reward": {
+              "currencies": {
+                "gems": 80
+              },
+              "items": {
+                "tokens.wild": 5
+              },
+              "exp": 0
+            }
+          },
+          {
+            "toRank": 3,
+            "reward": {
+              "currencies": {
+                "gems": 50
+              },
+              "items": {},
+              "exp": 0
+            }
+          },
+          {
+            "toRank": 10,
+            "reward": {
+              "currencies": {
+                "gems": 25,
+                "coins": 800
+              },
+              "items": {},
+              "exp": 0
+            }
+          },
+          {
+            "toRank": 30,
+            "reward": {
+              "currencies": {
+                "coins": 500
+              },
+              "items": {},
+              "exp": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "platinum",
+        "name": {
+          "en": "Platinum",
+          "pt": "Platina",
+          "es": "Platino",
+          "zh": "铂金",
+          "ja": "プラチナ",
+          "ko": "플래티넘"
+        },
+        "promote": 5,
+        "demote": 5,
+        "rewards": [
+          {
+            "toRank": 1,
+            "reward": {
+              "currencies": {
+                "gems": 120
+              },
+              "items": {
+                "tokens.wild": 8
+              },
+              "exp": 0
+            }
+          },
+          {
+            "toRank": 3,
+            "reward": {
+              "currencies": {
+                "gems": 80
+              },
+              "items": {},
+              "exp": 0
+            }
+          },
+          {
+            "toRank": 10,
+            "reward": {
+              "currencies": {
+                "gems": 40,
+                "coins": 1000
+              },
+              "items": {},
+              "exp": 0
+            }
+          },
+          {
+            "toRank": 30,
+            "reward": {
+              "currencies": {
+                "coins": 800
+              },
+              "items": {},
+              "exp": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "diamond",
+        "name": {
+          "en": "Diamond",
+          "pt": "Diamante",
+          "es": "Diamante",
+          "zh": "钻石",
+          "ja": "ダイヤモンド",
+          "ko": "다이아몬드"
+        },
+        "promote": 3,
+        "demote": 5,
+        "rewards": [
+          {
+            "toRank": 1,
+            "reward": {
+              "currencies": {
+                "gems": 200
+              },
+              "items": {
+                "tokens.wild": 12
+              },
+              "exp": 0
+            }
+          },
+          {
+            "toRank": 3,
+            "reward": {
+              "currencies": {
+                "gems": 120
+              },
+              "items": {},
+              "exp": 0
+            }
+          },
+          {
+            "toRank": 10,
+            "reward": {
+              "currencies": {
+                "gems": 60
+              },
+              "items": {},
+              "exp": 0
+            }
+          },
+          {
+            "toRank": 30,
+            "reward": {
+              "currencies": {
+                "coins": 1200
+              },
+              "items": {},
+              "exp": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "legend",
+        "name": {
+          "en": "Legend",
+          "pt": "Lenda",
+          "es": "Leyenda",
+          "zh": "传奇",
+          "ja": "レジェンド",
+          "ko": "레전드"
+        },
+        "promote": 0,
+        "demote": 5,
+        "rewards": [
+          {
+            "toRank": 1,
+            "reward": {
+              "currencies": {
+                "gems": 300
+              },
+              "items": {
+                "tokens.wild": 20
+              },
+              "exp": 0
+            }
+          },
+          {
+            "toRank": 3,
+            "reward": {
+              "currencies": {
+                "gems": 200
+              },
+              "items": {},
+              "exp": 0
+            }
+          },
+          {
+            "toRank": 10,
+            "reward": {
+              "currencies": {
+                "gems": 100
+              },
+              "items": {},
+              "exp": 0
+            }
+          },
+          {
+            "toRank": 30,
+            "reward": {
+              "currencies": {
+                "coins": 2000
+              },
+              "items": {},
+              "exp": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "towers": [
+    {
+      "id": "kraken_tower",
+      "title": {
+        "en": "Kraken's Tower",
+        "pt": "Torre do Kraken",
+        "es": "Torre del Kraken",
+        "zh": "克拉肯之塔",
+        "ja": "クラーケンタワー",
+        "ko": "크라켄의 탑"
+      },
+      "description": {
+        "en": "Climb all 10 floors before the tide turns!",
+        "pt": "Suba os 10 andares antes que a maré vire!",
+        "es": "¡Sube los 10 pisos antes de que cambie la marea!",
+        "zh": "在潮水逆转之前，登上全部10层！",
+        "ja": "潮が変わる前に10フロアすべて登りきれ！",
+        "ko": "물결이 바뀌기 전에 10층을 모두 오르세요!"
+      },
+      "banner": "kraken",
+      "startsAt": "2026-10-20T00:00:00Z",
+      "endsAt": "2026-11-30T00:00:00Z",
+      "floors": [
+        {
+          "encounter": "ce017b187c1440d09d70a08b84ee2e90",
+          "difficulty": "normal",
+          "reward": {
+            "currencies": {
+              "coins": 200
+            },
+            "items": {},
+            "exp": 0
+          }
+        },
+        {
+          "encounter": "pirate_cove_tentacles",
+          "difficulty": "normal",
+          "reward": {
+            "currencies": {},
+            "items": {
+              "crew_xp": 50
+            },
+            "exp": 0
+          }
+        },
+        {
+          "encounter": "ce017b187c1440d09d70a08b84ee2e90",
+          "difficulty": "normal",
+          "reward": {
+            "currencies": {
+              "coins": 400
+            },
+            "items": {},
+            "exp": 0
+          }
+        },
+        {
+          "encounter": "pirate_cove_tentacles",
+          "difficulty": "hard",
+          "reward": {
+            "currencies": {},
+            "items": {
+              "tokens.wild": 1
+            },
+            "exp": 0
+          }
+        },
+        {
+          "encounter": "ce017b187c1440d09d70a08b84ee2e90",
+          "difficulty": "hard",
+          "reward": {
+            "currencies": {
+              "coins": 300,
+              "gems": 15
+            },
+            "items": {},
+            "exp": 0
+          },
+          "title": {
+            "en": "Halfway!",
+            "pt": "Metade do caminho!",
+            "es": "¡A medio camino!",
+            "zh": "已过半！",
+            "ja": "折り返し地点！",
+            "ko": "절반 달성!"
+          }
+        },
+        {
+          "encounter": "pirate_cove_tentacles",
+          "difficulty": "hard",
+          "reward": {
+            "currencies": {},
+            "items": {
+              "crew_xp": 150
+            },
+            "exp": 0
+          }
+        },
+        {
+          "encounter": "ce017b187c1440d09d70a08b84ee2e90",
+          "difficulty": "hard",
+          "reward": {
+            "currencies": {
+              "coins": 800
+            },
+            "items": {},
+            "exp": 0
+          }
+        },
+        {
+          "encounter": "pirate_cove_tentacles",
+          "difficulty": "hard",
+          "reward": {
+            "currencies": {},
+            "items": {
+              "tokens.wild": 2
+            },
+            "exp": 100
+          }
+        },
+        {
+          "encounter": "ce017b187c1440d09d70a08b84ee2e90",
+          "difficulty": "hard",
+          "reward": {
+            "currencies": {
+              "coins": 1200
+            },
+            "items": {
+              "crew_xp": 200
+            },
+            "exp": 0
+          }
+        },
+        {
+          "encounter": "pirate_cove_tentacles",
+          "difficulty": "hard",
+          "reward": {
+            "currencies": {
+              "gems": 40
+            },
+            "items": {
+              "tokens.wild": 3
+            },
+            "exp": 300
+          },
+          "title": {
+            "en": "The Kraken",
+            "pt": "O Kraken",
+            "es": "El Kraken",
+            "zh": "克拉肯",
+            "ja": "クラーケン",
+            "ko": "크라켄"
+          }
+        }
+      ]
+    }
+  ]
+}

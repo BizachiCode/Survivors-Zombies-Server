@@ -1,0 +1,73 @@
+{
+  "items": [
+    {
+      "id": "welcome_pirate_cove",
+      "title": {
+        "en": "Welcome to Pirate Cove!",
+        "pt": "Bem-vindo à Enseada dos Piratas!",
+        "es": "¡Bienvenido a la Cala Pirata!",
+        "zh": "欢迎来到海盗湾！",
+        "ja": "パイレーツコーブへようこそ！",
+        "ko": "해적 만에 오신 것을 환영해요!"
+      },
+      "body": {
+        "en": "Pirates and survivors are holding the cove against the zombie tide. Build your crew, place your defenders and sink every wave. Check your mail for a welcome gift!",
+        "pt": "Piratas e sobreviventes defendem a enseada contra a maré de zumbis. Monte sua tripulação, posicione seus defensores e afunde todas as ondas. Veja seu correio: tem um presente de boas-vindas!",
+        "es": "Piratas y supervivientes defienden la cala contra la marea de zombis. Reúne a tu tripulación, coloca a tus defensores y hunde cada oleada. ¡Revisa tu correo: hay un regalo de bienvenida!",
+        "zh": "海盗和幸存者正在海盗湾抵御僵尸浪潮。组建你的船员队伍，部署你的守卫，击沉每一波敌人！别忘了查看邮箱里的欢迎礼物！",
+        "ja": "海賊と生存者たちが、ゾンビの大群からコーブを守っています。クルーを育て、守りのキャラクターを配置して、すべてのウェーブを撃退しよう。ウェルカムギフトはメールを確認！",
+        "ko": "해적과 생존자들이 좀비 물결로부터 만을 지키고 있어요. 크루를 키우고 방어자를 배치해 모든 웨이브를 막아 내세요. 우편함에서 환영 선물을 확인하세요!"
+      },
+      "image": "welcome",
+      "url": "",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "pinned": true
+    },
+    {
+      "id": "crew_collection",
+      "title": {
+        "en": "New: the Crew collection",
+        "pt": "Novo: a coleção da Tripulação",
+        "es": "Nuevo: la colección de la Tripulación",
+        "zh": "新功能：船员收藏",
+        "ja": "新機能：クルーコレクション",
+        "ko": "신규: 크루 컬렉션"
+      },
+      "body": {
+        "en": "Unlock new crew members with their tokens, level them up with Crew XP and merge duplicate cards into stronger ones. Pick your team before the next battle.",
+        "pt": "Desbloqueie novos tripulantes com seus tokens, suba o nível com Crew XP e una cartas repetidas em cartas mais fortes. Escolha seu time antes da próxima batalha.",
+        "es": "Desbloquea nuevos tripulantes con sus fichas, súbelos de nivel con Crew XP y fusiona cartas repetidas en otras más fuertes. Elige tu equipo antes del próximo combate.",
+        "zh": "用代币解锁新船员，用船员经验为他们升级，还能把重复的卡牌合成为更强的卡牌。下一场战斗前，别忘了选好你的队伍。",
+        "ja": "トークンで新しいクルーを解放し、クルーXPで育て、同じカードを合成してさらに強くしよう。次のバトルの前にチームを選ぼう。",
+        "ko": "토큰으로 새 크루원을 잠금 해제하고, 크루 XP로 레벨을 올리고, 중복 카드는 합쳐서 더 강하게 만드세요. 다음 전투 전에 팀을 골라 두세요."
+      },
+      "image": "crew",
+      "url": "",
+      "publishedAt": "2026-10-10T12:00:00Z",
+      "pinned": false
+    },
+    {
+      "id": "daily_deals",
+      "title": {
+        "en": "Daily deals are open",
+        "pt": "As ofertas diárias chegaram",
+        "es": "Ya están las ofertas diarias",
+        "zh": "每日特惠开启",
+        "ja": "デイリーセール開始！",
+        "ko": "일일 특가가 열렸어요"
+      },
+      "body": {
+        "en": "The shop now rotates daily deals: seed packs, tokens and coin pouches with limited stock. They reset every day at midnight UTC, so grab them early.",
+        "pt": "A loja agora tem ofertas diárias: pacotes de sementes, tokens e bolsas de moedas com estoque limitado. Elas reiniciam todo dia à meia-noite UTC, então aproveite cedo.",
+        "es": "La tienda ahora tiene ofertas diarias: paquetes de semillas, fichas y bolsas de monedas con existencias limitadas. Se reinician cada día a medianoche UTC, así que aprovéchalas pronto.",
+        "zh": "商店现在每天轮换特惠：种子包、代币和金币袋，数量有限。每天 UTC 午夜刷新，赶紧抢购吧！",
+        "ja": "ショップで毎日変わるデイリーセールが始まりました。シードパック、トークン、コイン袋を数量限定で販売中。毎日UTC午前0時にリセットされるので、早めにゲットしよう！",
+        "ko": "상점에 일일 특가가 새로 나왔어요: 씨앗 팩, 토큰, 코인 주머니를 한정 수량으로 판매해요. 매일 UTC 자정에 초기화되니 서둘러 잡으세요."
+      },
+      "image": "shop",
+      "url": "",
+      "publishedAt": "2026-10-20T09:00:00Z",
+      "pinned": false
+    }
+  ]
+}

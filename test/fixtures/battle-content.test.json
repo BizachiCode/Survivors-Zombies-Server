@@ -1,0 +1,717 @@
+{
+ "version": 1,
+ "defenders": [
+  {
+   "id": "shooter",
+   "name": "Shooter",
+   "role": "Shooter",
+   "cost": 50,
+   "recharge": 1,
+   "levels": [
+    {
+     "health": 100,
+     "damage": 20,
+     "interval": 1,
+     "range": 10,
+     "projectileSpeed": 8,
+     "splashRadius": 0,
+     "slowFraction": 0,
+     "slowDuration": 0,
+     "production": 0,
+     "upgradeCost": 0,
+     "stunDuration": 0,
+     "burnDamagePerSecond": 0,
+     "burnDuration": 0,
+     "pierceCount": 1
+    },
+    {
+     "health": 150,
+     "damage": 30,
+     "interval": 1,
+     "range": 10,
+     "projectileSpeed": 8,
+     "splashRadius": 0,
+     "slowFraction": 0,
+     "slowDuration": 0,
+     "production": 0,
+     "upgradeCost": 75,
+     "stunDuration": 0,
+     "burnDamagePerSecond": 0,
+     "burnDuration": 0,
+     "pierceCount": 1
+    }
+   ]
+  },
+  {
+   "id": "generator",
+   "name": "Generator",
+   "role": "Generator",
+   "cost": 25,
+   "recharge": 2,
+   "levels": [
+    {
+     "health": 80,
+     "damage": 0,
+     "interval": 5,
+     "range": 10,
+     "projectileSpeed": 8,
+     "splashRadius": 0,
+     "slowFraction": 0,
+     "slowDuration": 0,
+     "production": 25,
+     "upgradeCost": 0,
+     "stunDuration": 0,
+     "burnDamagePerSecond": 0,
+     "burnDuration": 0,
+     "pierceCount": 1
+    }
+   ]
+  },
+  {
+   "id": "bomber",
+   "name": "Bomber",
+   "role": "Shooter",
+   "cost": 75,
+   "recharge": 1,
+   "levels": [
+    {
+     "health": 120,
+     "damage": 40,
+     "interval": 1.0,
+     "range": 10,
+     "projectileSpeed": 8,
+     "splashRadius": 0,
+     "slowFraction": 0,
+     "slowDuration": 0,
+     "production": 0,
+     "upgradeCost": 0,
+     "stunDuration": 0,
+     "burnDamagePerSecond": 0,
+     "burnDuration": 0,
+     "pierceCount": 1
+    }
+   ]
+  },
+  {
+   "id": "guard",
+   "name": "Guard",
+   "role": "Barrier",
+   "cost": 50,
+   "recharge": 1,
+   "levels": [
+    {
+     "health": 600,
+     "damage": 0,
+     "interval": 1.0,
+     "range": 10,
+     "projectileSpeed": 8,
+     "splashRadius": 0,
+     "slowFraction": 0,
+     "slowDuration": 0,
+     "production": 0,
+     "upgradeCost": 0,
+     "stunDuration": 0,
+     "burnDamagePerSecond": 0,
+     "burnDuration": 0,
+     "pierceCount": 1
+    }
+   ]
+  },
+  {
+   "id": "bard",
+   "name": "Bard",
+   "role": "Generator",
+   "cost": 25,
+   "recharge": 1,
+   "levels": [
+    {
+     "health": 80,
+     "damage": 0,
+     "interval": 5,
+     "range": 10,
+     "projectileSpeed": 8,
+     "splashRadius": 0,
+     "slowFraction": 0,
+     "slowDuration": 0,
+     "production": 25,
+     "upgradeCost": 0,
+     "stunDuration": 0,
+     "burnDamagePerSecond": 0,
+     "burnDuration": 0,
+     "pierceCount": 1
+    }
+   ]
+  }
+ ],
+ "enemies": [
+  {
+   "id": "runner",
+   "health": 10,
+   "speed": 8,
+   "damage": 5,
+   "attackInterval": 1,
+   "armor": 0,
+   "reward": 5,
+   "baseDamage": 1,
+   "phases": []
+  },
+  {
+   "id": "walker",
+   "health": 400,
+   "speed": 0.2,
+   "damage": 10,
+   "attackInterval": 1,
+   "armor": 0,
+   "reward": 20,
+   "baseDamage": 1,
+   "phases": []
+  }
+ ],
+ "difficulties": [
+  {
+   "id": "normal",
+   "enemyHealth": 1,
+   "enemySpeed": 1,
+   "enemyDamage": 1
+  },
+  {
+   "id": "hard",
+   "enemyHealth": 1.5,
+   "enemySpeed": 1.2000000476837158,
+   "enemyDamage": 2
+  }
+ ],
+ "encounters": [
+  {
+   "id": "guarded_run",
+   "seed": 7,
+   "deck": [
+    "shooter",
+    "generator"
+   ],
+   "abilities": [],
+   "settings": {
+    "lanes": 1,
+    "columns": 3,
+    "startingEnergy": 100,
+    "energyCap": 999,
+    "baseHealth": 1,
+    "passiveEnergyPerSecond": 0,
+    "tickSeconds": 0.05,
+    "refundFraction": 0.5,
+    "laneGuards": true
+   },
+   "waves": [
+    {
+     "startTime": 0.5,
+     "groups": [
+      {
+       "enemy": "runner",
+       "count": 1,
+       "lane": 0,
+       "delay": 0,
+       "interval": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "open_run",
+   "seed": 7,
+   "deck": [
+    "shooter",
+    "generator"
+   ],
+   "abilities": [],
+   "settings": {
+    "lanes": 1,
+    "columns": 3,
+    "startingEnergy": 100,
+    "energyCap": 999,
+    "baseHealth": 1,
+    "passiveEnergyPerSecond": 0,
+    "tickSeconds": 0.05,
+    "refundFraction": 0.5,
+    "laneGuards": false
+   },
+   "waves": [
+    {
+     "startTime": 0.5,
+     "groups": [
+      {
+       "enemy": "runner",
+       "count": 1,
+       "lane": 0,
+       "delay": 0,
+       "interval": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "long_siege",
+   "seed": 0,
+   "deck": [
+    "shooter",
+    "generator"
+   ],
+   "abilities": [
+    {
+     "id": "strike",
+     "effect": "LaneStrike",
+     "cost": 50,
+     "cooldown": 10,
+     "power": 100
+    }
+   ],
+   "settings": {
+    "lanes": 3,
+    "columns": 6,
+    "startingEnergy": 300,
+    "energyCap": 999,
+    "baseHealth": 3,
+    "passiveEnergyPerSecond": 2,
+    "tickSeconds": 0.05,
+    "refundFraction": 0.5,
+    "laneGuards": true
+   },
+   "waves": [
+    {
+     "startTime": 60,
+     "groups": [
+      {
+       "enemy": "walker",
+       "count": 3,
+       "lane": -1,
+       "delay": 0,
+       "interval": 2
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "stages": [
+  {
+   "id": "test_1",
+   "title": "Test 1-1",
+   "location": "suburb",
+   "encounter": "guarded_run",
+   "difficulty": "normal",
+   "requiredLevel": 0,
+   "threeStarSeconds": 60,
+   "prerequisites": [],
+   "victoryReward": {
+    "currencies": {
+     "coins": 100
+    },
+    "exp": 60
+   },
+   "firstClearBonus": {
+    "currencies": {
+     "gems": 5
+    },
+    "exp": 50,
+    "items": {
+     "seeds.bomber": 6,
+     "plant_xp": 40
+    }
+   },
+   "defeatReward": {
+    "currencies": {},
+    "exp": 10
+   }
+  },
+  {
+   "id": "test_2",
+   "title": "Test 1-2",
+   "location": "suburb",
+   "encounter": "open_run",
+   "difficulty": "hard",
+   "requiredLevel": 0,
+   "threeStarSeconds": 60,
+   "prerequisites": [
+    "test_1"
+   ],
+   "victoryReward": {
+    "currencies": {
+     "coins": 150
+    },
+    "exp": 80
+   },
+   "firstClearBonus": {
+    "currencies": {},
+    "exp": 0
+   },
+   "defeatReward": {
+    "currencies": {},
+    "exp": 10
+   }
+  },
+  {
+   "id": "test_siege",
+   "title": "Siege",
+   "encounter": "long_siege",
+   "difficulty": "normal",
+   "requiredLevel": 0,
+   "threeStarSeconds": 120,
+   "prerequisites": [],
+   "victoryReward": {
+    "currencies": {
+     "coins": 50
+    },
+    "exp": 20,
+    "items": {
+     "seeds.wild": 4
+    }
+   },
+   "firstClearBonus": {
+    "currencies": {},
+    "exp": 0
+   },
+   "defeatReward": {
+    "currencies": {},
+    "exp": 5
+   }
+  },
+  {
+   "id": "test_veteran",
+   "title": "Veteran",
+   "encounter": "long_siege",
+   "difficulty": "hard",
+   "requiredLevel": 5,
+   "threeStarSeconds": 120,
+   "prerequisites": [],
+   "victoryReward": {
+    "currencies": {
+     "coins": 500
+    },
+    "exp": 100
+   },
+   "firstClearBonus": {
+    "currencies": {},
+    "exp": 0
+   },
+   "defeatReward": {
+    "currencies": {},
+    "exp": 0
+   }
+  }
+ ],
+ "items": [
+  {
+   "id": "plant_xp",
+   "name": "XP",
+   "kind": "resource"
+  },
+  {
+   "id": "meteor_shard",
+   "name": "Meteorite Shard",
+   "kind": "material"
+  },
+  {
+   "id": "seeds.bomber",
+   "name": "Bomber Seeds",
+   "kind": "seed",
+   "card": "bomber"
+  },
+  {
+   "id": "seeds.wild",
+   "name": "Wild Seeds",
+   "kind": "seed"
+  }
+ ],
+ "collection": {
+  "deckSize": 3,
+  "startingItems": {
+   "plant_xp": 30
+  },
+  "cards": [
+   {
+    "card": "shooter",
+    "rarity": "common",
+    "unlock": [
+     {
+      "method": "starter"
+     }
+    ],
+    "curve": "basic"
+   },
+   {
+    "card": "generator",
+    "rarity": "common",
+    "unlock": [
+     {
+      "method": "starter"
+     }
+    ],
+    "curve": "basic"
+   },
+   {
+    "card": "bomber",
+    "rarity": "rare",
+    "unlock": [
+     {
+      "method": "seeds",
+      "item": "seeds.bomber",
+      "amount": 10,
+      "wildItem": "seeds.wild"
+     }
+    ],
+    "curve": "basic"
+   },
+   {
+    "card": "guard",
+    "rarity": "common",
+    "unlock": [
+     {
+      "method": "stage",
+      "stage": "test_1"
+     },
+     {
+      "method": "purchase",
+      "currency": "coins",
+      "amount": 500
+     }
+    ],
+    "curve": "basic"
+   },
+   {
+    "card": "bard",
+    "rarity": "epic",
+    "unlock": [
+     {
+      "method": "level",
+      "level": 3
+     }
+    ],
+    "curve": "basic"
+   }
+  ],
+  "curves": [
+   {
+    "id": "basic",
+    "levels": [
+     {
+      "level": 2,
+      "cost": [
+       {
+        "id": "coins",
+        "amount": 50
+       },
+       {
+        "id": "plant_xp",
+        "amount": 25
+       }
+      ],
+      "health": 1.2,
+      "damage": 1.2
+     },
+     {
+      "level": 3,
+      "cost": [
+       {
+        "id": "coins",
+        "amount": 100
+       },
+       {
+        "id": "plant_xp",
+        "amount": 75
+       },
+       {
+        "id": "meteor_shard",
+        "amount": 5
+       }
+      ],
+      "health": 1.44,
+      "damage": 1.44,
+      "ability": "Power Attack"
+     }
+    ]
+   }
+  ]
+ },
+ "shop": {
+  "offers": [
+   {
+    "id": "xp_pack",
+    "name": "XP Pack",
+    "price": {
+     "currency": "coins",
+     "amount": 100
+    },
+    "grants": {
+     "items": {
+      "plant_xp": 50
+     }
+    },
+    "dailyLimit": 2
+   },
+   {
+    "id": "gem_coins",
+    "name": "Coin Pouch",
+    "price": {
+     "currency": "gems",
+     "amount": 10
+    },
+    "grants": {
+     "currencies": {
+      "coins": 500
+     }
+    },
+    "tag": "BEST VALUE"
+   },
+   {
+    "id": "wild_seeds",
+    "name": "Wild Seeds",
+    "price": {
+     "currency": "gems",
+     "amount": 5
+    },
+    "grants": {
+     "items": {
+      "seeds.wild": 3
+     }
+    },
+    "dailyLimit": 1,
+    "requiredLevel": 3
+   }
+  ]
+ },
+ "progression": {
+  "events": [
+   {
+    "id": "ev_halloween",
+    "title": {
+     "en": "Halloween",
+     "pt": "Dia das Bruxas"
+    },
+    "startsAt": "2026-10-20T00:00:00Z",
+    "endsAt": "2026-11-01T00:00:00Z",
+    "banner": "halloween"
+   },
+   {
+    "id": "ev_future",
+    "title": "Later",
+    "startsAt": "2027-01-01T00:00:00Z",
+    "endsAt": "2027-01-08T00:00:00Z"
+   }
+  ],
+  "objectives": [
+   {
+    "id": "daily_win",
+    "kind": "daily",
+    "title": {
+     "en": "Win 2 battles",
+     "pt": "Ven\u00e7a 2 batalhas"
+    },
+    "metric": "battles_won",
+    "target": 2,
+    "reward": {
+     "currencies": {
+      "coins": 50
+     }
+    }
+   },
+   {
+    "id": "daily_stars",
+    "kind": "daily",
+    "title": "Earn 3 stars",
+    "metric": "stars_earned",
+    "target": 3,
+    "reward": {
+     "items": {
+      "plant_xp": 20
+     }
+    }
+   },
+   {
+    "id": "weekly_upgrade",
+    "kind": "weekly",
+    "title": "Upgrade a card",
+    "metric": "cards_upgraded",
+    "target": 1,
+    "reward": {
+     "currencies": {
+      "gems": 5
+     }
+    }
+   },
+   {
+    "id": "ach_win_1",
+    "kind": "achievement",
+    "title": "First win",
+    "metric": "battles_won",
+    "target": 1,
+    "group": "wins",
+    "tier": 1,
+    "reward": {
+     "currencies": {
+      "coins": 10
+     }
+    }
+   },
+   {
+    "id": "ach_win_2",
+    "kind": "achievement",
+    "title": "Three wins",
+    "metric": "battles_won",
+    "target": 3,
+    "group": "wins",
+    "tier": 2,
+    "reward": {
+     "currencies": {
+      "coins": 30
+     },
+     "exp": 200
+    }
+   },
+   {
+    "id": "ev_kill",
+    "kind": "event",
+    "event": "ev_halloween",
+    "title": "Defeat 5 zombies",
+    "metric": "enemies_killed",
+    "target": 5,
+    "reward": {
+     "items": {
+      "seeds.wild": 2
+     }
+    }
+   },
+   {
+    "id": "ev_future_play",
+    "kind": "event",
+    "event": "ev_future",
+    "title": "Play",
+    "metric": "battles_played",
+    "target": 1,
+    "reward": {
+     "currencies": {
+      "coins": 1
+     }
+    }
+   }
+  ],
+  "dailyRewards": [
+   {
+    "currencies": {
+     "coins": 10
+    }
+   },
+   {
+    "items": {
+     "plant_xp": 5
+    }
+   },
+   {
+    "currencies": {
+     "gems": 1
+    },
+    "exp": 10
+   }
+  ]
+ }
+}
